@@ -134,7 +134,7 @@
 
 /* Regular */
 @font-face {
-  font-family: 'Libe-Sans';
+  font-family: 'Libe-Sans-Condensed';
   font-weight: 400;
   font-style: normal;
   font-stretch: condensed;
@@ -145,7 +145,7 @@
        url('../fonts/libe-sans--condensed/libesanswebcondensed-regular.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
 @font-face {
-  font-family: 'Libe-Sans';
+  font-family: 'Libe-Sans-Condensed';
   font-weight: 400;
   font-style: italic;
   font-stretch: condensed;
@@ -158,7 +158,7 @@
 
 /* Bold */
 @font-face {
-  font-family: 'Libe-Sans';
+  font-family: 'Libe-Sans-Condensed';
   font-weight: 600;
   font-style: normal;
   font-stretch: condensed;
@@ -169,7 +169,7 @@
        url('../fonts/libe-sans--condensed/libesanswebcondensed-bold.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
 @font-face {
-  font-family: 'Libe-Sans';
+  font-family: 'Libe-Sans-Condensed';
   font-weight: 600;
   font-style: italic;
   font-stretch: condensed;
@@ -182,7 +182,7 @@
 
 /* Black */
 @font-face {
-  font-family: 'Libe-Sans';
+  font-family: 'Libe-Sans-Condensed';
   font-weight: 800;
   font-style: normal;
   font-stretch: condensed;
@@ -193,7 +193,7 @@
        url('../fonts/libe-sans--condensed/libesanswebcondensed-black.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
 @font-face {
-  font-family: 'Libe-Sans';
+  font-family: 'Libe-Sans-Condensed';
   font-weight: 800;
   font-style: italic;
   font-stretch: condensed;
@@ -206,7 +206,7 @@
 
 /* Ultra */
 @font-face {
-  font-family: 'Libe-Sans';
+  font-family: 'Libe-Sans-Condensed';
   font-weight: 900;
   font-style: normal;
   font-stretch: condensed;
@@ -217,7 +217,7 @@
        url('../fonts/libe-sans--condensed/libesanswebcondensed-ultra.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
 @font-face {
-  font-family: 'Libe-Sans';
+  font-family: 'Libe-Sans-Condensed';
   font-weight: 900;
   font-style: italic;
   font-stretch: condensed;
@@ -230,7 +230,7 @@
 
 /* Light */
 @font-face {
-  font-family: 'Libe-Sans';
+  font-family: 'Libe-Sans-Condensed';
   font-weight: 200;
   font-style: normal;
   font-stretch: condensed;
@@ -241,7 +241,7 @@
        url('../fonts/libe-sans--condensed/libesanswebcondensed-light.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
 @font-face {
-  font-family: 'Libe-Sans';
+  font-family: 'Libe-Sans-Condensed';
   font-weight: 200;
   font-style: italic;
   font-stretch: condensed;
@@ -256,7 +256,7 @@
 
 /* Regular */
 @font-face {
-  font-family: 'Libe-Sans';
+  font-family: 'Libe-Sans-Semicondensed';
   font-weight: 400;
   font-style: normal;
   font-stretch: semi-condensed;
@@ -267,7 +267,7 @@
        url('../fonts/libe-sans--semi-condensed/libesanswebsemicondensed-regular.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
 @font-face {
-  font-family: 'Libe-Sans';
+  font-family: 'Libe-Sans-Semicondensed';
   font-weight: 400;
   font-style: italic;
   font-stretch: semi-condensed;
@@ -280,7 +280,7 @@
 
 /* Bold */
 @font-face {
-  font-family: 'Libe-Sans';
+  font-family: 'Libe-Sans-Semicondensed';
   font-weight: 600;
   font-style: normal;
   font-stretch: semi-condensed;
@@ -291,7 +291,7 @@
        url('../fonts/libe-sans--semi-condensed/libesanswebsemicondensed-bold.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
 @font-face {
-  font-family: 'Libe-Sans';
+  font-family: 'Libe-Sans-Semicondensed';
   font-weight: 600;
   font-style: italic;
   font-stretch: semi-condensed;
@@ -304,7 +304,7 @@
 
 /* Black */
 @font-face {
-  font-family: 'Libe-Sans';
+  font-family: 'Libe-Sans-Semicondensed';
   font-weight: 800;
   font-style: normal;
   font-stretch: semi-condensed;
@@ -315,7 +315,7 @@
        url('../fonts/libe-sans--semi-condensed/libesanswebsemicondensed-black.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
 @font-face {
-  font-family: 'Libe-Sans';
+  font-family: 'Libe-Sans-Semicondensed';
   font-weight: 800;
   font-style: italic;
   font-stretch: semi-condensed;
@@ -328,7 +328,7 @@
 
 /* Ultra */
 @font-face {
-  font-family: 'Libe-Sans';
+  font-family: 'Libe-Sans-Semicondensed';
   font-weight: 900;
   font-style: normal;
   font-stretch: semi-condensed;
@@ -339,7 +339,7 @@
        url('../fonts/libe-sans--semi-condensed/libesanswebsemicondensed-ultra.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
 @font-face {
-  font-family: 'Libe-Sans';
+  font-family: 'Libe-Sans-Semicondensed';
   font-weight: 900;
   font-style: italic;
   font-stretch: semi-condensed;
@@ -352,7 +352,7 @@
 
 /* Light */
 @font-face {
-  font-family: 'Libe-Sans';
+  font-family: 'Libe-Sans-Semicondensed';
   font-weight: 200;
   font-style: normal;
   font-stretch: semi-condensed;
@@ -363,7 +363,7 @@
        url('../fonts/libe-sans--semi-condensed/libesanswebsemicondensed-light.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
 @font-face {
-  font-family: 'Libe-Sans';
+  font-family: 'Libe-Sans-Semicondensed';
   font-weight: 200;
   font-style: italic;
   font-stretch: semi-condensed;
@@ -378,7 +378,7 @@
 
 /* Ultra */
 @font-face {
-  font-family: 'Libe-Sans';
+  font-family: 'Libe-Sans-Extracondensed';
   font-weight: 900;
   font-style: normal;
   font-stretch: extra-condensed;
@@ -389,7 +389,7 @@
        url('../fonts/libe-sans--extra-condensed/libesanswebxcondensed-ultra.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
 @font-face {
-  font-family: 'Libe-Sans';
+  font-family: 'Libe-Sans-Extracondensed';
   font-weight: 900;
   font-style: italic;
   font-stretch: extra-condensed;
@@ -402,7 +402,7 @@
 
 /* Light */
 @font-face {
-  font-family: 'Libe-Sans';
+  font-family: 'Libe-Sans-Extracondensed';
   font-weight: 200;
   font-style: normal;
   font-stretch: extra-condensed;
@@ -413,7 +413,7 @@
        url('../fonts/libe-sans--extra-condensed/libesanswebxcondensed-light.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
 @font-face {
-  font-family: 'Libe-Sans';
+  font-family: 'Libe-Sans-Extracondensed';
   font-weight: 200;
   font-style: italic;
   font-stretch: extra-condensed;
@@ -428,7 +428,7 @@
 
 /* Regular */
 @font-face {
-  font-family: 'Libe-Sans';
+  font-family: 'Libe-Sans-Extended';
   font-weight: 400;
   font-style: normal;
   font-stretch: expanded;
@@ -439,7 +439,7 @@
        url('../fonts/libe-sans--extended/libesanswebextended-regular.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
 @font-face {
-  font-family: 'Libe-Sans';
+  font-family: 'Libe-Sans-Extended';
   font-weight: 400;
   font-style: italic;
   font-stretch: expanded;
@@ -452,7 +452,7 @@
 
 /* Bold */
 @font-face {
-  font-family: 'Libe-Sans';
+  font-family: 'Libe-Sans-Extended';
   font-weight: 600;
   font-style: normal;
   font-stretch: expanded;
@@ -463,7 +463,7 @@
        url('../fonts/libe-sans--extended/libesanswebextended-bold.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
 @font-face {
-  font-family: 'Libe-Sans';
+  font-family: 'Libe-Sans-Extended';
   font-weight: 600;
   font-style: italic;
   font-stretch: expanded;
@@ -476,7 +476,7 @@
 
 /* Black */
 @font-face {
-  font-family: 'Libe-Sans';
+  font-family: 'Libe-Sans-Extended';
   font-weight: 800;
   font-style: normal;
   font-stretch: expanded;
@@ -487,7 +487,7 @@
        url('../fonts/libe-sans--extended/libesanswebextended-black.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
 @font-face {
-  font-family: 'Libe-Sans';
+  font-family: 'Libe-Sans-Extended';
   font-weight: 800;
   font-style: italic;
   font-stretch: expanded;
@@ -500,7 +500,7 @@
 
 /* Ultra */
 @font-face {
-  font-family: 'Libe-Sans';
+  font-family: 'Libe-Sans-Extended';
   font-weight: 900;
   font-style: normal;
   font-stretch: expanded;
@@ -511,7 +511,7 @@
        url('../fonts/libe-sans--extended/libesanswebextended-ultra.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
 @font-face {
-  font-family: 'Libe-Sans';
+  font-family: 'Libe-Sans-Extended';
   font-weight: 900;
   font-style: italic;
   font-stretch: expanded;
@@ -524,7 +524,7 @@
 
 /* Light */
 @font-face {
-  font-family: 'Libe-Sans';
+  font-family: 'Libe-Sans-Extended';
   font-weight: 200;
   font-style: normal;
   font-stretch: expanded;
@@ -535,7 +535,7 @@
        url('../fonts/libe-sans--extended/libesanswebextended-light.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
 @font-face {
-  font-family: 'Libe-Sans';
+  font-family: 'Libe-Sans-Extended';
   font-weight: 200;
   font-style: italic;
   font-stretch: expanded;
@@ -627,7 +627,7 @@
 
 /* Regular */
 @font-face {
-  font-family: 'Libe-Sans-Rond';
+  font-family: 'Libe-Sans-Rond-Condensed';
   font-weight: 400;
   font-style: normal;
   font-stretch: condensed;
@@ -640,7 +640,7 @@
 
 /* Bold */
 @font-face {
-  font-family: 'Libe-Sans-Rond';
+  font-family: 'Libe-Sans-Rond-Condensed';
   font-weight: 600;
   font-style: normal;
   font-stretch: condensed;
@@ -653,7 +653,7 @@
 
 /* Black */
 @font-face {
-  font-family: 'Libe-Sans-Rond';
+  font-family: 'Libe-Sans-Rond-Condensed';
   font-weight: 800;
   font-style: normal;
   font-stretch: condensed;
@@ -666,7 +666,7 @@
 
 /* Ultra */
 @font-face {
-  font-family: 'Libe-Sans-Rond';
+  font-family: 'Libe-Sans-Rond-Condensed';
   font-weight: 900;
   font-style: normal;
   font-stretch: condensed;
@@ -679,7 +679,7 @@
 
 /* Light */
 @font-face {
-  font-family: 'Libe-Sans-Rond';
+  font-family: 'Libe-Sans-Rond-Condensed';
   font-weight: 200;
   font-style: normal;
   font-stretch: condensed;
@@ -694,7 +694,7 @@
 
 /* Regular */
 @font-face {
-  font-family: 'Libe-Sans-Rond';
+  font-family: 'Libe-Sans-Rond-Semicondensed';
   font-weight: 400;
   font-style: normal;
   font-stretch: semi-condensed;
@@ -707,7 +707,7 @@
 
 /* Bold */
 @font-face {
-  font-family: 'Libe-Sans-Rond';
+  font-family: 'Libe-Sans-Rond-Semicondensed';
   font-weight: 600;
   font-style: normal;
   font-stretch: semi-condensed;
@@ -720,7 +720,7 @@
 
 /* Black */
 @font-face {
-  font-family: 'Libe-Sans-Rond';
+  font-family: 'Libe-Sans-Rond-Semicondensed';
   font-weight: 800;
   font-style: normal;
   font-stretch: semi-condensed;
@@ -733,7 +733,7 @@
 
 /* Ultra */
 @font-face {
-  font-family: 'Libe-Sans-Rond';
+  font-family: 'Libe-Sans-Rond-Semicondensed';
   font-weight: 900;
   font-style: normal;
   font-stretch: semi-condensed;
@@ -746,7 +746,7 @@
 
 /* Light */
 @font-face {
-  font-family: 'Libe-Sans-Rond';
+  font-family: 'Libe-Sans-Rond-Semicondensed';
   font-weight: 200;
   font-style: normal;
   font-stretch: semi-condensed;
@@ -761,7 +761,7 @@
 
 /* Ultra */
 @font-face {
-  font-family: 'Libe-Sans-Rond';
+  font-family: 'Libe-Sans-Rond-Extracondensed';
   font-weight: 900;
   font-style: normal;
   font-stretch: extra-condensed;
@@ -774,7 +774,7 @@
 
 /* Light */
 @font-face {
-  font-family: 'Libe-Sans-Rond';
+  font-family: 'Libe-Sans-Rond-Extracondensed';
   font-weight: 200;
   font-style: normal;
   font-stretch: extra-condensed;
@@ -789,7 +789,7 @@
 
 /* Regular */
 @font-face {
-  font-family: 'Libe-Sans-Rond';
+  font-family: 'Libe-Sans-Rond-Extended';
   font-weight: 400;
   font-style: normal;
   font-stretch: expanded;
@@ -802,7 +802,7 @@
 
 /* Bold */
 @font-face {
-  font-family: 'Libe-Sans-Rond';
+  font-family: 'Libe-Sans-Rond-Extended';
   font-weight: 600;
   font-style: normal;
   font-stretch: expanded;
@@ -815,7 +815,7 @@
 
 /* Black */
 @font-face {
-  font-family: 'Libe-Sans-Rond';
+  font-family: 'Libe-Sans-Rond-Extended';
   font-weight: 800;
   font-style: normal;
   font-stretch: expanded;
@@ -828,7 +828,7 @@
 
 /* Ultra */
 @font-face {
-  font-family: 'Libe-Sans-Rond';
+  font-family: 'Libe-Sans-Rond-Extended';
   font-weight: 900;
   font-style: normal;
   font-stretch: expanded;
@@ -841,7 +841,7 @@
 
 /* Light */
 @font-face {
-  font-family: 'Libe-Sans-Rond';
+  font-family: 'Libe-Sans-Rond-Extended';
   font-weight: 200;
   font-style: normal;
   font-stretch: expanded;
