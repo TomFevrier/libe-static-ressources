@@ -40,7 +40,7 @@
   color: #212121;
 }
 
-@media screen and (max-width: 1007px) {
+@media screen and (max-width: 63rem) {
   .lblb-page-title h1,
   .lblb-page-title h2,
   .lblb-page-title h3,
@@ -53,7 +53,7 @@
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 40rem) {
   .lblb-page-title h1,
   .lblb-page-title h2,
   .lblb-page-title h3,
@@ -86,7 +86,7 @@
   color: #212121;
 }
 
-@media screen and (max-width: 1007px) {
+@media screen and (max-width: 63rem) {
   .lblb-inter-title h1,
   .lblb-inter-title h2,
   .lblb-inter-title h3,
@@ -99,7 +99,7 @@
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 40rem) {
   .lblb-inter-title h1,
   .lblb-inter-title h2,
   .lblb-inter-title h3,
@@ -127,14 +127,14 @@
   color: #212121;
 }
 
-@media screen and (max-width: 1007px) {
+@media screen and (max-width: 63rem) {
   .lblb-overhead span {
     font-size: 2rem;
     line-height: 2rem;
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 40rem) {
   .lblb-overhead span {
     font-size: 1.5rem;
     line-height: 1.5rem;
@@ -157,14 +157,14 @@
   color: #212121;
 }
 
-@media screen and (max-width: 1007px) {
+@media screen and (max-width: 63rem) {
   .lblb-hat em {
     font-size: 2rem;
     line-height: 2rem;
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 40rem) {
   .lblb-hat em {
     font-size: 1.5rem;
     line-height: 1.5rem;
@@ -191,7 +191,7 @@
   color: #212121;
 }
 
-@media screen and (max-width: 1007px) {
+@media screen and (max-width: 63rem) {
   .lblb-section-title h1,
   .lblb-section-title h2,
   .lblb-section-title h3,
@@ -204,7 +204,7 @@
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 40rem) {
   .lblb-section-title h1,
   .lblb-section-title h2,
   .lblb-section-title h3,
@@ -237,7 +237,7 @@
   color: #212121;
 }
 
-@media screen and (max-width: 1007px) {
+@media screen and (max-width: 63rem) {
   .lblb-block-title h1,
   .lblb-block-title h2,
   .lblb-block-title h3,
@@ -250,7 +250,7 @@
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 40rem) {
   .lblb-block-title h1,
   .lblb-block-title h2,
   .lblb-block-title h3,
@@ -293,7 +293,7 @@
   font-family: 'Georgia';
 }
 
-@media screen and (max-width: 1007px) {
+@media screen and (max-width: 63rem) {
   .lblb-paragraph-title h1,
   .lblb-paragraph-title h2,
   .lblb-paragraph-title h3,
@@ -306,7 +306,7 @@
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 40rem) {
   .lblb-paragraph-title h1,
   .lblb-paragraph-title h2,
   .lblb-paragraph-title h3,
@@ -337,14 +337,14 @@
   font-family: 'Georgia';
 }
 
-@media screen and (max-width: 1007px) {
+@media screen and (max-width: 63rem) {
   .lblb-paragraph {
     font-size: 1.25rem;
     line-height: 1.5rem;
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 40rem) {
   .lblb-paragraph {
     font-size: 1.125rem;
     line-height: 1.5rem;
@@ -369,14 +369,14 @@
   color: #FFFFFF;
 }
 
-@media screen and (max-width: 1007px) {
+@media screen and (max-width: 63rem) {
   .lblb-slug {
     font-size: 1rem;
     line-height: 1rem;
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 40rem) {
   .lblb-slug {
     font-size: 1rem;
     line-height: 1rem;
@@ -405,7 +405,7 @@
   color: #212121;
 }
 
-@media screen and (max-width: 1007px) {
+@media screen and (max-width: 63rem) {
   .lblb-annotation-title h1,
   .lblb-annotation-title h2,
   .lblb-annotation-title h3,
@@ -418,7 +418,7 @@
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 40rem) {
   .lblb-annotation-title h1,
   .lblb-annotation-title h2,
   .lblb-annotation-title h3,
@@ -449,14 +449,14 @@
   font-family: 'Georgia';
 }
 
-@media screen and (max-width: 1007px) {
+@media screen and (max-width: 63rem) {
   .lblb-annotation {
     font-size: 0.875rem;
     line-height: 1rem;
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 40rem) {
   .lblb-annotation {
     font-size: 0.875rem;
     line-height: 1rem;
