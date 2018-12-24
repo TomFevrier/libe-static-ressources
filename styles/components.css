@@ -1,23 +1,75 @@
 /* 
-░░ ███████████████░░░ ███████████████░░░ ███░░░░░░░ ███░░░ ███████████████░░░░░░░░░
- ░█       ███     ░░░█ ███           ░░░█   ███░░░ ███ ░░░█       ███     ░░░░░░░░░░
-  ░░░░░░░█ ███░░░░░░░░█ ███░░░░░░░░░░░░░░░░█   ██████ ░░░░░░░░░░░█ ███░░░░░░░░░░░░░░░
-   ░░░░░░░█ ███░░░░░░░░█ ███████████░░░░░░░░░░█  ████░░░░░░░░░░░░░█ ███░░░░░░░░░░░░░░░
-    ░░░░░░░█ ███░░░░░░░░█ ███       ░░░░░░░░░░░░█ ████░░░░░░░░░░░░░█ ███░░░░░ ██████░░░
-     ░░░░░░░█ ███░░░░░░░░█ ███░░░░░░░░░░░░░░░░░░░ ██████░░░░░░░░░░░░█ ███░░░░█      ░░░░
-      ░░░░░░░█ ███░░░░░░░░█ ███░░░░░░░░░░░░░░░░░ ███    ███░░░░░░░░░░█ ███░░░░░░░░░░░░░░░
-       ░░░░░░░█ ███░░░░░░░░█ ███████████████░░░ ███ ░░░█   ███░░░░░░░░█ ███░░░░░░░░░░░░░░░
-        ░░░░░░░█   ░░░░░░░░░█               ░░░█   ░░░░░░░█   ░░░░░░░░░█   ░░░░░░░░░░░░░░░░
-░ ███░░░░░░░░░░░░░░░ ███████████████░░░ ███░░░░░░░░ ███░░░ ███████████████░░░ ███░░░░░░░░░░░░░░░░░░ ███████████░░░
- █ ███░░░░░░░░░░░░░░█ ███           ░░░█ ███░░░░░░░█ ███░░█ ███           ░░░█ ███░░░░░░░░░░░░░░░░ ███         ███░
-  █ ███░░░░░░░░░░░░░░█ ███░░░░░░░░░░░░░░█  ███░░░░░░ ███░░░█ ███░░░░░░░░░░░░░░█ ███░░░░░░░░░░░░░░░█  ███░░░░░░█   ░░
-   █ ███░░░░░░░░░░░░░░█ ███████████░░░░░░░█  ███░░░░ ███░░░░█ ███████████░░░░░░█ ███░░░░░░░░░░░░░░░░█    ███░░░░░░░░░
-    █ ███░░░░░░░░░░░░░░█ ███       ░░░░░░░░░█  ███░░ ███░░░░░█ ███       ░░░░░░░█ ███░░░░░░░░░░░░░░░░░░░█    ███░░░░░░
-     █ ███░░░░░░░░░░░░░░█ ███░░░░░░░░░░░░░░░░░█  ███ ███░░░░░░█ ███░░░░░░░░░░░░░░█ ███░░░░░░░░░░░░░░░░░░░░░░█    ███░░░
-      █ ███░░░░░░░░░░░░░░█ ███░░░░░░░░░░░░░░░░░░█  █████░░░░░░░█ ███░░░░░░░░░░░░░░█ ███░░░░░░░░░░░░░░░ ███░░░░░░█  ███░░
-       █ ███████████████░░█ ███████████████░░░░░░░█  ███░░░░░░░░█ ███████████████░░█ ███████████████░░█   ███████████ ░░░
-        █               ░░░█               ░░░░░░░░░█   ░░░░░░░░░█               ░░░█               ░░░░░█           ░░░░░
-*/
+ * ░░ ███████████████░░░ ███████████████░░░ ███░░░░░░░ ███░░░ ███████████████░░░░░░░░░
+ *  ░█       ███     ░░░█ ███           ░░░█   ███░░░ ███ ░░░█       ███     ░░░░░░░░░░
+ *   ░░░░░░░█ ███░░░░░░░░█ ███░░░░░░░░░░░░░░░░█   ██████ ░░░░░░░░░░░█ ███░░░░░░░░░░░░░░░
+ *    ░░░░░░░█ ███░░░░░░░░█ ███████████░░░░░░░░░░█  ████░░░░░░░░░░░░░█ ███░░░░░░░░░░░░░░░
+ *     ░░░░░░░█ ███░░░░░░░░█ ███       ░░░░░░░░░░░░█ ████░░░░░░░░░░░░░█ ███░░░░░ ██████░░░
+ *      ░░░░░░░█ ███░░░░░░░░█ ███░░░░░░░░░░░░░░░░░░░ ██████░░░░░░░░░░░░█ ███░░░░█      ░░░░
+ *       ░░░░░░░█ ███░░░░░░░░█ ███░░░░░░░░░░░░░░░░░ ███    ███░░░░░░░░░░█ ███░░░░░░░░░░░░░░░
+ *        ░░░░░░░█ ███░░░░░░░░█ ███████████████░░░ ███ ░░░█   ███░░░░░░░░█ ███░░░░░░░░░░░░░░░
+ *         ░░░░░░░█   ░░░░░░░░░█               ░░░█   ░░░░░░░█   ░░░░░░░░░█   ░░░░░░░░░░░░░░░░
+ * ░ ███░░░░░░░░░░░░░░░ ███████████████░░░ ███░░░░░░░░ ███░░░ ███████████████░░░ ███░░░░░░░░░░░░░░░░░░ ███████████░░░
+ *  █ ███░░░░░░░░░░░░░░█ ███           ░░░█ ███░░░░░░░█ ███░░█ ███           ░░░█ ███░░░░░░░░░░░░░░░░ ███         ███░
+ *   █ ███░░░░░░░░░░░░░░█ ███░░░░░░░░░░░░░░█  ███░░░░░░ ███░░░█ ███░░░░░░░░░░░░░░█ ███░░░░░░░░░░░░░░░█  ███░░░░░░█   ░░
+ *    █ ███░░░░░░░░░░░░░░█ ███████████░░░░░░░█  ███░░░░ ███░░░░█ ███████████░░░░░░█ ███░░░░░░░░░░░░░░░░█    ███░░░░░░░░░
+ *     █ ███░░░░░░░░░░░░░░█ ███       ░░░░░░░░░█  ███░░ ███░░░░░█ ███       ░░░░░░░█ ███░░░░░░░░░░░░░░░░░░░█    ███░░░░░░
+ *      █ ███░░░░░░░░░░░░░░█ ███░░░░░░░░░░░░░░░░░█  ███ ███░░░░░░█ ███░░░░░░░░░░░░░░█ ███░░░░░░░░░░░░░░░░░░░░░░█    ███░░░
+ *       █ ███░░░░░░░░░░░░░░█ ███░░░░░░░░░░░░░░░░░░█  █████░░░░░░░█ ███░░░░░░░░░░░░░░█ ███░░░░░░░░░░░░░░░ ███░░░░░░█  ███░░
+ *        █ ███████████████░░█ ███████████████░░░░░░░█  ███░░░░░░░░█ ███████████████░░█ ███████████████░░█   ███████████ ░░░
+ *         █               ░░░█               ░░░░░░░░░█   ░░░░░░░░░█               ░░░█               ░░░░░█           ░░░░░
+ *
+ *
+ * NOTICE
+ * ==========
+ * 
+ * Each text level component has a font-size calculated on the basis of the
+ * following formula: fs = Math.round(root * ratio ^ level / 2) * 2
+ *
+ *
+ * RATIO & ROOT
+ * ----------
+ * 
+ * Screen size    | Ratio       | Root
+ * ---------------|-------------|-------------
+ * Desktop        | 1.25        | 1.25rem
+ * Medium         | 1.20        | 1.25rem
+ * Mobile         | 1.18        | 1rem
+ *
+ *
+ * LEVEL
+ * ----------
+ *
+ * Regular size variant
+ * 
+ * Component            | Level
+ * ---------------------|----------
+ * Page title           |   7
+ * Inter title          |   5
+ * Overhead             |   3
+ * Hat                  |   3
+ * Section title        |   3
+ * Block title          |   1
+ * Paragraph title      |   1
+ * Paragraph            |   0
+ * Slug                 | - 0.5
+ * Annotation title     | - 0.5
+ * Annotation           | - 1
+ *
+ * For size variants, levels are topped or
+ * lowered from the regular sizes:
+ *
+ * Variant   | Level modification
+ * ----------|---------------------
+ * Small     | -1
+ * Big       | +1
+ * Huge      | +2
+ *
+ * In the cases of the levels -1 and -1.5, the output value obtained
+ * via the formula has been manually adjusted, in order to circumvent
+ * the fact that font-sizes on medium screens were bigger than on
+ * desktop and mobile ones.
+ *
+ */
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
  *
@@ -32,12 +84,46 @@
 .lblb-page-title h5,
 .lblb-page-title h6,
 .lblb-page-title span {
+  display: block;
   font-family: 'Libe-Sans';
-  font-size: 5rem;
-  line-height: 5rem;
+  font-size: 5.375rem;
+  line-height: 5.5rem;
   font-weight: 800;
   text-transform: uppercase;
   color: #212121;
+}
+
+.lblb-page-title_big h1,
+.lblb-page-title_big h2,
+.lblb-page-title_big h3,
+.lblb-page-title_big h4,
+.lblb-page-title_big h5,
+.lblb-page-title_big h6,
+.lblb-page-title_big span {
+  font-size: 6.75rem;
+  line-height: 7rem;
+}
+
+.lblb-page-title_huge h1,
+.lblb-page-title_huge h2,
+.lblb-page-title_huge h3,
+.lblb-page-title_huge h4,
+.lblb-page-title_huge h5,
+.lblb-page-title_huge h6,
+.lblb-page-title_huge span {
+  font-size: 8.375rem;
+  line-height: 8.5rem;
+}
+
+.lblb-page-title_small h1,
+.lblb-page-title_small h2,
+.lblb-page-title_small h3,
+.lblb-page-title_small h4,
+.lblb-page-title_small h5,
+.lblb-page-title_small h6,
+.lblb-page-title_small span {
+  font-size: 4.25rem;
+  line-height: 4.5rem;
 }
 
 @media screen and (max-width: 63rem) {
@@ -48,7 +134,40 @@
   .lblb-page-title h5,
   .lblb-page-title h6,
   .lblb-page-title span {
-    font-size: 3.75rem;
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+
+  .lblb-page-title_big h1,
+  .lblb-page-title_big h2,
+  .lblb-page-title_big h3,
+  .lblb-page-title_big h4,
+  .lblb-page-title_big h5,
+  .lblb-page-title_big h6,
+  .lblb-page-title_big span {
+    font-size: 4.875rem;
+    line-height: 5rem;
+  }
+
+  .lblb-page-title_huge h1,
+  .lblb-page-title_huge h2,
+  .lblb-page-title_huge h3,
+  .lblb-page-title_huge h4,
+  .lblb-page-title_huge h5,
+  .lblb-page-title_huge h6,
+  .lblb-page-title_huge span {
+    font-size: 5.75rem;
+    line-height: 6rem;
+  }
+
+  .lblb-page-title_small h1,
+  .lblb-page-title_small h2,
+  .lblb-page-title_small h3,
+  .lblb-page-title_small h4,
+  .lblb-page-title_small h5,
+  .lblb-page-title_small h6,
+  .lblb-page-title_small span {
+    font-size: 3.375rem;
     line-height: 3.5rem;
   }
 }
@@ -61,8 +180,41 @@
   .lblb-page-title h5,
   .lblb-page-title h6,
   .lblb-page-title span {
+    font-size: 3.125rem;
+    line-height: 3.5rem;
+  }
+
+  .lblb-page-title_big h1,
+  .lblb-page-title_big h2,
+  .lblb-page-title_big h3,
+  .lblb-page-title_big h4,
+  .lblb-page-title_big h5,
+  .lblb-page-title_big h6,
+  .lblb-page-title_big span {
+    font-size: 3.75rem;
+    line-height: 4rem;
+  }
+
+  .lblb-page-title_huge h1,
+  .lblb-page-title_huge h2,
+  .lblb-page-title_huge h3,
+  .lblb-page-title_huge h4,
+  .lblb-page-title_huge h5,
+  .lblb-page-title_huge h6,
+  .lblb-page-title_huge span {
+    font-size: 4.375rem;
+    line-height: 5rem;
+  }
+
+  .lblb-page-title_small h1,
+  .lblb-page-title_small h2,
+  .lblb-page-title_small h3,
+  .lblb-page-title_small h4,
+  .lblb-page-title_small h5,
+  .lblb-page-title_small h6,
+  .lblb-page-title_small span {
     font-size: 2.75rem;
-    line-height: 2.5rem;
+    line-height: 3rem;
   }
 }
 
@@ -79,11 +231,45 @@
 .lblb-inter-title h5,
 .lblb-inter-title h6,
 .lblb-inter-title span {
+  display: block;
   font-family: 'Libe-Sans';
-  font-size: 3.5rem;
+  font-size: 3.375rem;
   line-height: 3.5rem;
   font-weight: 800;
   color: #212121;
+}
+
+.lblb-inter-title_big h1,
+.lblb-inter-title_big h2,
+.lblb-inter-title_big h3,
+.lblb-inter-title_big h4,
+.lblb-inter-title_big h5,
+.lblb-inter-title_big h6,
+.lblb-inter-title_big span {
+  font-size: 4.25rem;
+  line-height: 4.5rem;
+}
+
+.lblb-inter-title_huge h1,
+.lblb-inter-title_huge h2,
+.lblb-inter-title_huge h3,
+.lblb-inter-title_huge h4,
+.lblb-inter-title_huge h5,
+.lblb-inter-title_huge h6,
+.lblb-inter-title_huge span {
+  font-size: 5.375rem;
+  line-height: 5.5rem;
+}
+
+.lblb-inter-title_small h1,
+.lblb-inter-title_small h2,
+.lblb-inter-title_small h3,
+.lblb-inter-title_small h4,
+.lblb-inter-title_small h5,
+.lblb-inter-title_small h6,
+.lblb-inter-title_small span {
+  font-size: 2.75rem;
+  line-height: 3rem;
 }
 
 @media screen and (max-width: 63rem) {
@@ -95,6 +281,39 @@
   .lblb-inter-title h6,
   .lblb-inter-title span {
     font-size: 2.75rem;
+    line-height: 3rem;
+  }
+
+  .lblb-inter-title_big h1,
+  .lblb-inter-title_big h2,
+  .lblb-inter-title_big h3,
+  .lblb-inter-title_big h4,
+  .lblb-inter-title_big h5,
+  .lblb-inter-title_big h6,
+  .lblb-inter-title_big span {
+    font-size: 3.375rem;
+    line-height: 3.5rem;
+  }
+
+  .lblb-inter-title_huge h1,
+  .lblb-inter-title_huge h2,
+  .lblb-inter-title_huge h3,
+  .lblb-inter-title_huge h4,
+  .lblb-inter-title_huge h5,
+  .lblb-inter-title_huge h6,
+  .lblb-inter-title_huge span {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+
+  .lblb-inter-title_small h1,
+  .lblb-inter-title_small h2,
+  .lblb-inter-title_small h3,
+  .lblb-inter-title_small h4,
+  .lblb-inter-title_small h5,
+  .lblb-inter-title_small h6,
+  .lblb-inter-title_small span {
+    font-size: 2.375rem;
     line-height: 2.5rem;
   }
 }
@@ -107,6 +326,39 @@
   .lblb-inter-title h5,
   .lblb-inter-title h6,
   .lblb-inter-title span {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .lblb-inter-title_big h1,
+  .lblb-inter-title_big h2,
+  .lblb-inter-title_big h3,
+  .lblb-inter-title_big h4,
+  .lblb-inter-title_big h5,
+  .lblb-inter-title_big h6,
+  .lblb-inter-title_big span {
+    font-size: 2.75rem;
+    line-height: 3rem;
+  }
+
+  .lblb-inter-title_huge h1,
+  .lblb-inter-title_huge h2,
+  .lblb-inter-title_huge h3,
+  .lblb-inter-title_huge h4,
+  .lblb-inter-title_huge h5,
+  .lblb-inter-title_huge h6,
+  .lblb-inter-title_huge span {
+    font-size: 3.125rem;
+    line-height: 3.5rem;
+  }
+
+  .lblb-inter-title_small h1,
+  .lblb-inter-title_small h2,
+  .lblb-inter-title_small h3,
+  .lblb-inter-title_small h4,
+  .lblb-inter-title_small h5,
+  .lblb-inter-title_small h6,
+  .lblb-inter-title_small span {
     font-size: 2rem;
     line-height: 2rem;
   }
@@ -118,13 +370,29 @@
  *
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
- .lblb-overhead span {
+.lblb-overhead span {
+  display: block;
   font-family: 'Libe-Sans';
   font-size: 2.25rem;
-  line-height: 2rem;
+  line-height: 2.5rem;
   font-weight: 800;
   text-transform: uppercase;
   color: #212121;
+}
+
+.lblb-overhead_big span {
+  font-size: 2.75rem;
+  line-height: 3rem;
+}
+
+.lblb-overhead_huge span {
+  font-size: 3.375rem;
+  line-height: 3.5rem;
+}
+
+.lblb-overhead_small span {
+  font-size: 1.75rem;
+  line-height: 2rem;
 }
 
 @media screen and (max-width: 63rem) {
@@ -132,11 +400,41 @@
     font-size: 2rem;
     line-height: 2rem;
   }
+
+  .lblb-overhead_big span {
+    font-size: 2.325rem;
+    line-height: 2.5rem;
+  }
+
+  .lblb-overhead_huge span {
+    font-size: 2.75rem;
+    line-height: 3rem;
+  }
+
+  .lblb-overhead_small span {
+    font-size: 1.625rem;
+    line-height: 2rem;
+  }
 }
 
 @media screen and (max-width: 40rem) {
   .lblb-overhead span {
-    font-size: 1.5rem;
+    font-size: 1.625rem;
+    line-height: 2rem;
+  }
+
+  .lblb-overhead_big span {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+
+  .lblb-overhead_huge span {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .lblb-overhead_small span {
+    font-size: 1.375rem;
     line-height: 1.5rem;
   }
 }
@@ -147,7 +445,7 @@
  *
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
- .lblb-hat em {
+.lblb-hat em {
   display: block;
   font-family: 'Synthese';
   font-size: 2.25rem;
@@ -157,16 +455,61 @@
   color: #212121;
 }
 
+.lblb-hat_big em {
+  font-size: 2.75rem;
+  line-height: 3rem;
+}
+
+.lblb-hat_huge em {
+  font-size: 3.375rem;
+  line-height: 3.5rem;
+}
+
+.lblb-hat_small em {
+  font-size: 1.75rem;
+  line-height: 2rem;
+}
+
 @media screen and (max-width: 63rem) {
   .lblb-hat em {
     font-size: 2rem;
+    line-height: 2rem;
+  }
+
+  .lblb-hat_big em {
+    font-size: 2.325rem;
+    line-height: 2.5rem;
+  }
+
+  .lblb-hat_huge em {
+    font-size: 2.75rem;
+    line-height: 3rem;
+  }
+
+  .lblb-hat_small em {
+    font-size: 1.625rem;
     line-height: 2rem;
   }
 }
 
 @media screen and (max-width: 40rem) {
   .lblb-hat em {
-    font-size: 1.5rem;
+    font-size: 1.625rem;
+    line-height: 2rem;
+  }
+
+  .lblb-hat_big em {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+
+  .lblb-hat_huge em {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .lblb-hat_small em {
+    font-size: 1.375rem;
     line-height: 1.5rem;
   }
 }
@@ -184,11 +527,45 @@
 .lblb-section-title h5,
 .lblb-section-title h6,
 .lblb-section-title span {
+  display: block;
   font-family: 'Libe-Sans';
   font-size: 2.25rem;
   line-height: 2.5rem;
   font-weight: 800;
   color: #212121;
+}
+
+.lblb-section-title_big h1,
+.lblb-section-title_big h2,
+.lblb-section-title_big h3,
+.lblb-section-title_big h4,
+.lblb-section-title_big h5,
+.lblb-section-title_big h6,
+.lblb-section-title_big span {
+  font-size: 2.75rem;
+  line-height: 3rem;
+}
+
+.lblb-section-title_huge h1,
+.lblb-section-title_huge h2,
+.lblb-section-title_huge h3,
+.lblb-section-title_huge h4,
+.lblb-section-title_huge h5,
+.lblb-section-title_huge h6,
+.lblb-section-title_huge span {
+  font-size: 3.375rem;
+  line-height: 3.5rem;
+}
+
+.lblb-section-title_small h1,
+.lblb-section-title_small h2,
+.lblb-section-title_small h3,
+.lblb-section-title_small h4,
+.lblb-section-title_small h5,
+.lblb-section-title_small h6,
+.lblb-section-title_small span {
+  font-size: 1.75rem;
+  line-height: 2rem;
 }
 
 @media screen and (max-width: 63rem) {
@@ -202,6 +579,39 @@
     font-size: 2rem;
     line-height: 2rem;
   }
+
+  .lblb-section-title_big h1,
+  .lblb-section-title_big h2,
+  .lblb-section-title_big h3,
+  .lblb-section-title_big h4,
+  .lblb-section-title_big h5,
+  .lblb-section-title_big h6,
+  .lblb-section-title_big span {
+    font-size: 2.325rem;
+    line-height: 2.5rem;
+  }
+
+  .lblb-section-title_huge h1,
+  .lblb-section-title_huge h2,
+  .lblb-section-title_huge h3,
+  .lblb-section-title_huge h4,
+  .lblb-section-title_huge h5,
+  .lblb-section-title_huge h6,
+  .lblb-section-title_huge span {
+    font-size: 2.75rem;
+    line-height: 3rem;
+  }
+
+  .lblb-section-title_small h1,
+  .lblb-section-title_small h2,
+  .lblb-section-title_small h3,
+  .lblb-section-title_small h4,
+  .lblb-section-title_small h5,
+  .lblb-section-title_small h6,
+  .lblb-section-title_small span {
+    font-size: 1.625rem;
+    line-height: 2rem;
+  }
 }
 
 @media screen and (max-width: 40rem) {
@@ -212,7 +622,40 @@
   .lblb-section-title h5,
   .lblb-section-title h6,
   .lblb-section-title span {
-    font-size: 1.5rem;
+    font-size: 1.625rem;
+    line-height: 2rem;
+  }
+
+  .lblb-section-title_big h1,
+  .lblb-section-title_big h2,
+  .lblb-section-title_big h3,
+  .lblb-section-title_big h4,
+  .lblb-section-title_big h5,
+  .lblb-section-title_big h6,
+  .lblb-section-title_big span {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+
+  .lblb-section-title_huge h1,
+  .lblb-section-title_huge h2,
+  .lblb-section-title_huge h3,
+  .lblb-section-title_huge h4,
+  .lblb-section-title_huge h5,
+  .lblb-section-title_huge h6,
+  .lblb-section-title_huge span {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .lblb-section-title_small h1,
+  .lblb-section-title_small h2,
+  .lblb-section-title_small h3,
+  .lblb-section-title_small h4,
+  .lblb-section-title_small h5,
+  .lblb-section-title_small h6,
+  .lblb-section-title_small span {
+    font-size: 1.375rem;
     line-height: 1.5rem;
   }
 }
@@ -230,11 +673,45 @@
 .lblb-block-title h5,
 .lblb-block-title h6,
 .lblb-block-title span {
+  display: block;
   font-family: 'Libe-Sans';
-  font-size: 1.5rem;
+  font-size: 1.375rem;
   line-height: 1.5rem;
   font-weight: 800;
   color: #212121;
+}
+
+.lblb-block-title_big h1,
+.lblb-block-title_big h2,
+.lblb-block-title_big h3,
+.lblb-block-title_big h4,
+.lblb-block-title_big h5,
+.lblb-block-title_big h6,
+.lblb-block-title_big span {
+  font-size: 1.75rem;
+  line-height: 2rem;
+}
+
+.lblb-block-title_huge h1,
+.lblb-block-title_huge h2,
+.lblb-block-title_huge h3,
+.lblb-block-title_huge h4,
+.lblb-block-title_huge h5,
+.lblb-block-title_huge h6,
+.lblb-block-title_huge span {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.lblb-block-title_small h1,
+.lblb-block-title_small h2,
+.lblb-block-title_small h3,
+.lblb-block-title_small h4,
+.lblb-block-title_small h5,
+.lblb-block-title_small h6,
+.lblb-block-title_small span {
+  font-size: 1.125rem;
+  line-height: 1.5rem;
 }
 
 @media screen and (max-width: 63rem) {
@@ -248,6 +725,39 @@
     font-size: 1.375rem;
     line-height: 1.5rem;
   }
+
+  .lblb-block-title_big h1,
+  .lblb-block-title_big h2,
+  .lblb-block-title_big h3,
+  .lblb-block-title_big h4,
+  .lblb-block-title_big h5,
+  .lblb-block-title_big h6,
+  .lblb-block-title_big span {
+    font-size: 1.625rem;
+    line-height: 2rem;
+  }
+
+  .lblb-block-title_huge h1,
+  .lblb-block-title_huge h2,
+  .lblb-block-title_huge h3,
+  .lblb-block-title_huge h4,
+  .lblb-block-title_huge h5,
+  .lblb-block-title_huge h6,
+  .lblb-block-title_huge span {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+
+  .lblb-block-title_small h1,
+  .lblb-block-title_small h2,
+  .lblb-block-title_small h3,
+  .lblb-block-title_small h4,
+  .lblb-block-title_small h5,
+  .lblb-block-title_small h6,
+  .lblb-block-title_small span {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+  }
 }
 
 @media screen and (max-width: 40rem) {
@@ -258,7 +768,40 @@
   .lblb-block-title h5,
   .lblb-block-title h6,
   .lblb-block-title span {
-    font-size: 1.25rem;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+  }
+
+  .lblb-block-title_big h1,
+  .lblb-block-title_big h2,
+  .lblb-block-title_big h3,
+  .lblb-block-title_big h4,
+  .lblb-block-title_big h5,
+  .lblb-block-title_big h6,
+  .lblb-block-title_big span {
+    font-size: 1.375rem;
+    line-height: 1.5rem;
+  }
+
+  .lblb-block-title_huge h1,
+  .lblb-block-title_huge h2,
+  .lblb-block-title_huge h3,
+  .lblb-block-title_huge h4,
+  .lblb-block-title_huge h5,
+  .lblb-block-title_huge h6,
+  .lblb-block-title_huge span {
+    font-size: 1.625rem;
+    line-height: 2rem;
+  }
+
+  .lblb-block-title_small h1,
+  .lblb-block-title_small h2,
+  .lblb-block-title_small h3,
+  .lblb-block-title_small h4,
+  .lblb-block-title_small h5,
+  .lblb-block-title_small h6,
+  .lblb-block-title_small span {
+    font-size: 1rem;
     line-height: 1rem;
   }
 }
@@ -276,11 +819,45 @@
 .lblb-paragraph-title h5,
 .lblb-paragraph-title h6,
 .lblb-paragraph-title span {
+  display: block;
   font-family: 'Synthese';
-  font-size: 1.5rem;
-  line-height: 2rem;
+  font-size: 1.375rem;
+  line-height: 1.5rem;
   font-weight: 600;
   color: #212121;
+}
+
+.lblb-paragraph-title_big h1,
+.lblb-paragraph-title_big h2,
+.lblb-paragraph-title_big h3,
+.lblb-paragraph-title_big h4,
+.lblb-paragraph-title_big h5,
+.lblb-paragraph-title_big h6,
+.lblb-paragraph-title_big span {
+  font-size: 1.75rem;
+  line-height: 2rem;
+}
+
+.lblb-paragraph-title_huge h1,
+.lblb-paragraph-title_huge h2,
+.lblb-paragraph-title_huge h3,
+.lblb-paragraph-title_huge h4,
+.lblb-paragraph-title_huge h5,
+.lblb-paragraph-title_huge h6,
+.lblb-paragraph-title_huge span {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.lblb-paragraph-title_small h1,
+.lblb-paragraph-title_small h2,
+.lblb-paragraph-title_small h3,
+.lblb-paragraph-title_small h4,
+.lblb-paragraph-title_small h5,
+.lblb-paragraph-title_small h6,
+.lblb-paragraph-title_small span {
+  font-size: 1.125rem;
+  line-height: 1.5rem;
 }
 
 .lblb-paragraph-title_literary h1,
@@ -304,6 +881,39 @@
     font-size: 1.375rem;
     line-height: 1.5rem;
   }
+
+  .lblb-paragraph-title_big h1,
+  .lblb-paragraph-title_big h2,
+  .lblb-paragraph-title_big h3,
+  .lblb-paragraph-title_big h4,
+  .lblb-paragraph-title_big h5,
+  .lblb-paragraph-title_big h6,
+  .lblb-paragraph-title_big span {
+    font-size: 1.625rem;
+    line-height: 2rem;
+  }
+
+  .lblb-paragraph-title_huge h1,
+  .lblb-paragraph-title_huge h2,
+  .lblb-paragraph-title_huge h3,
+  .lblb-paragraph-title_huge h4,
+  .lblb-paragraph-title_huge h5,
+  .lblb-paragraph-title_huge h6,
+  .lblb-paragraph-title_huge span {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+
+  .lblb-paragraph-title_small h1,
+  .lblb-paragraph-title_small h2,
+  .lblb-paragraph-title_small h3,
+  .lblb-paragraph-title_small h4,
+  .lblb-paragraph-title_small h5,
+  .lblb-paragraph-title_small h6,
+  .lblb-paragraph-title_small span {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+  }
 }
 
 @media screen and (max-width: 40rem) {
@@ -314,8 +924,41 @@
   .lblb-paragraph-title h5,
   .lblb-paragraph-title h6,
   .lblb-paragraph-title span {
-    font-size: 1.25rem;
+    font-size: 1.125rem;
     line-height: 1.5rem;
+  }
+
+  .lblb-paragraph-title_big h1,
+  .lblb-paragraph-title_big h2,
+  .lblb-paragraph-title_big h3,
+  .lblb-paragraph-title_big h4,
+  .lblb-paragraph-title_big h5,
+  .lblb-paragraph-title_big h6,
+  .lblb-paragraph-title_big span {
+    font-size: 1.375rem;
+    line-height: 1.5rem;
+  }
+
+  .lblb-paragraph-title_huge h1,
+  .lblb-paragraph-title_huge h2,
+  .lblb-paragraph-title_huge h3,
+  .lblb-paragraph-title_huge h4,
+  .lblb-paragraph-title_huge h5,
+  .lblb-paragraph-title_huge h6,
+  .lblb-paragraph-title_huge span {
+    font-size: 1.625rem;
+    line-height: 2rem;
+  }
+
+  .lblb-paragraph-title_small h1,
+  .lblb-paragraph-title_small h2,
+  .lblb-paragraph-title_small h3,
+  .lblb-paragraph-title_small h4,
+  .lblb-paragraph-title_small h5,
+  .lblb-paragraph-title_small h6,
+  .lblb-paragraph-title_small span {
+    font-size: 1rem;
+    line-height: 1rem;
   }
 }
 
@@ -327,10 +970,25 @@
 
 .lblb-paragraph {
   font-family: 'Synthese';
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   line-height: 1.5rem;
   font-weight: 400;
   color: #212121;
+}
+
+.lblb-paragraph_big {
+  font-size: 1.375rem;
+  line-height: 1.5rem;
+}
+
+.lblb-paragraph_huge {
+  font-size: 1.75rem;
+  line-height: 2rem;
+}
+
+.lblb-paragraph_small {
+  font-size: 0.875rem;
+  line-height: 1rem;
 }
 
 .lblb-paragraph_literary {
@@ -339,15 +997,45 @@
 
 @media screen and (max-width: 63rem) {
   .lblb-paragraph {
-    font-size: 1.25rem;
+    font-size: 1.125rem;
     line-height: 1.5rem;
+  }
+
+  .lblb-paragraph_big {
+    font-size: 1.375rem;
+    line-height: 1.5rem;
+  }
+
+  .lblb-paragraph_huge {
+    font-size: 1.625rem;
+    line-height: 2rem;
+  }
+
+  .lblb-paragraph_small {
+    font-size: 0.875rem;
+    line-height: 1rem;
   }
 }
 
 @media screen and (max-width: 40rem) {
   .lblb-paragraph {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .lblb-paragraph_big {
     font-size: 1.125rem;
     line-height: 1.5rem;
+  }
+
+  .lblb-paragraph_huge {
+    font-size: 1.625rem;
+    line-height: 2rem;
+  }
+
+  .lblb-paragraph_small {
+    font-size: 0.875rem;
+    line-height: 1rem;
   }
 }
 
@@ -369,16 +1057,61 @@
   color: #FFFFFF;
 }
 
+.lblb-slug_big {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
+
+.lblb-slug_huge {
+  font-size: 1.625rem;
+  line-height: 2rem;
+}
+
+.lblb-slug_small {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
 @media screen and (max-width: 63rem) {
   .lblb-slug {
     font-size: 1rem;
+    line-height: 1rem;
+  }
+
+  .lblb-slug_big {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+  }
+
+  .lblb-slug_huge {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+
+  .lblb-slug_small {
+    font-size: 0.75rem;
     line-height: 1rem;
   }
 }
 
 @media screen and (max-width: 40rem) {
   .lblb-slug {
-    font-size: 1rem;
+    font-size: 0.875rem;
+    line-height: 1rem;
+  }
+
+  .lblb-slug_big {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+  }
+
+  .lblb-slug_huge {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+  }
+
+  .lblb-slug_small {
+    font-size: 0.75rem;
     line-height: 1rem;
   }
 }
@@ -396,6 +1129,7 @@
 .lblb-annotation-title h5,
 .lblb-annotation-title h6,
 .lblb-annotation-title span {
+  display: block;
   font-family: 'Libe-Sans-Semicondensed';
   font-size: 1rem;
   line-height: 1rem;
@@ -403,6 +1137,39 @@
   text-transform: uppercase;
   letter-spacing: .08em;
   color: #212121;
+}
+
+.lblb-annotation-title_big h1,
+.lblb-annotation-title_big h2,
+.lblb-annotation-title_big h3,
+.lblb-annotation-title_big h4,
+.lblb-annotation-title_big h5,
+.lblb-annotation-title_big h6,
+.lblb-annotation-title_big span {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
+
+.lblb-annotation-title_huge h1,
+.lblb-annotation-title_huge h2,
+.lblb-annotation-title_huge h3,
+.lblb-annotation-title_huge h4,
+.lblb-annotation-title_huge h5,
+.lblb-annotation-title_huge h6,
+.lblb-annotation-title_huge span {
+  font-size: 1.625rem;
+  line-height: 2rem;
+}
+
+.lblb-annotation-title_small h1,
+.lblb-annotation-title_small h2,
+.lblb-annotation-title_small h3,
+.lblb-annotation-title_small h4,
+.lblb-annotation-title_small h5,
+.lblb-annotation-title_small h6,
+.lblb-annotation-title_small span {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 @media screen and (max-width: 63rem) {
@@ -416,6 +1183,39 @@
     font-size: 1rem;
     line-height: 1rem;
   }
+
+  .lblb-annotation-title_big h1,
+  .lblb-annotation-title_big h2,
+  .lblb-annotation-title_big h3,
+  .lblb-annotation-title_big h4,
+  .lblb-annotation-title_big h5,
+  .lblb-annotation-title_big h6,
+  .lblb-annotation-title_big span {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+  }
+
+  .lblb-annotation-title_huge h1,
+  .lblb-annotation-title_huge h2,
+  .lblb-annotation-title_huge h3,
+  .lblb-annotation-title_huge h4,
+  .lblb-annotation-title_huge h5,
+  .lblb-annotation-title_huge h6,
+  .lblb-annotation-title_huge span {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+
+  .lblb-annotation-title_small h1,
+  .lblb-annotation-title_small h2,
+  .lblb-annotation-title_small h3,
+  .lblb-annotation-title_small h4,
+  .lblb-annotation-title_small h5,
+  .lblb-annotation-title_small h6,
+  .lblb-annotation-title_small span {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
 }
 
 @media screen and (max-width: 40rem) {
@@ -426,7 +1226,40 @@
   .lblb-annotation-title h5,
   .lblb-annotation-title h6,
   .lblb-annotation-title span {
-    font-size: 1rem;
+    font-size: 0.875rem;
+    line-height: 1rem;
+  }
+
+  .lblb-annotation-title_big h1,
+  .lblb-annotation-title_big h2,
+  .lblb-annotation-title_big h3,
+  .lblb-annotation-title_big h4,
+  .lblb-annotation-title_big h5,
+  .lblb-annotation-title_big h6,
+  .lblb-annotation-title_big span {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+  }
+
+  .lblb-annotation-title_huge h1,
+  .lblb-annotation-title_huge h2,
+  .lblb-annotation-title_huge h3,
+  .lblb-annotation-title_huge h4,
+  .lblb-annotation-title_huge h5,
+  .lblb-annotation-title_huge h6,
+  .lblb-annotation-title_huge span {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+  }
+
+  .lblb-annotation-title_small h1,
+  .lblb-annotation-title_small h2,
+  .lblb-annotation-title_small h3,
+  .lblb-annotation-title_small h4,
+  .lblb-annotation-title_small h5,
+  .lblb-annotation-title_small h6,
+  .lblb-annotation-title_small span {
+    font-size: 0.75rem;
     line-height: 1rem;
   }
 }
@@ -445,6 +1278,21 @@
   color: #212121;
 }
 
+.lblb-annotation_big {
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+}
+
+.lblb-annotation_huge {
+  font-size: 1.375rem;
+  line-height: 1.5rem;
+}
+
+.lblb-annotation_small {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
 .lblb-annotation_literary {
   font-family: 'Georgia';
 }
@@ -454,11 +1302,41 @@
     font-size: 0.875rem;
     line-height: 1rem;
   }
+
+  .lblb-annotation_big {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+  }
+
+  .lblb-annotation_huge {
+    font-size: 1.375rem;
+    line-height: 1.5rem;
+  }
+
+  .lblb-annotation_small {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
 }
 
 @media screen and (max-width: 40rem) {
   .lblb-annotation {
     font-size: 0.875rem;
+    line-height: 1rem;
+  }
+
+  .lblb-annotation_big {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .lblb-annotation_huge {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+  }
+
+  .lblb-annotation_small {
+    font-size: 0.75rem;
     line-height: 1rem;
   }
 }
