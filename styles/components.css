@@ -997,6 +997,16 @@
   font-family: 'Georgia';
 }
 
+.lblb-paragraph a {
+  color: unset;
+  text-decoration: none;
+  border-bottom: 1px solid #e91845;
+}
+
+.lblb-paragraph a:hover {
+  border-bottom-width: 2px;
+}
+
 @media screen and (max-width: 63rem) {
   .lblb-paragraph {
     font-size: 1.125rem;
@@ -1297,6 +1307,16 @@
 
 .lblb-annotation_literary {
   font-family: 'Georgia';
+}
+
+.lblb-annotation a {
+  color: unset;
+  text-decoration: none;
+  border-bottom: 1px solid #e91845;
+}
+
+.lblb-annotation a:hover {
+  border-bottom-width: 2px;
 }
 
 @media screen and (max-width: 63rem) {
