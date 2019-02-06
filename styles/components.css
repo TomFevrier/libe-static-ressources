@@ -999,6 +999,7 @@
 
 .lblb-paragraph a {
   color: unset;
+  cursor: pointer;
   text-decoration: none;
   border-bottom: 1px solid #e91845;
 }
@@ -1311,6 +1312,7 @@
 
 .lblb-annotation a {
   color: unset;
+  cursor: pointer;
   text-decoration: none;
   border-bottom: 1px solid #e91845;
 }
