@@ -1,3 +1,34 @@
+/*
+ * ░░ █████████████░░░░░░░ █████████░░░░░░░ ███████████░░░ ████░░░░░░░░░░░░ ████░░░ ███████████░
+ * ░█ ███         ███░░░ ███       ███░░░░█     ███   ░░░█ ██████░░░░░░░░ ██████░░█     ███   ░░
+ *  ░█ ███░░░░░░░█ ███░░█ ███░░░░░█ ███░░░░░░░░█ ███░░░░░░█ ███  ███░░░░ ███  ███░░░░░░█ ███░░░░░
+ *   ░█ █████████████ ░░░█ ███████████ ░░░░░░░░░█ ███░░░░░░█ ████   ███ ███ ░█ ███░░░░░░█ ███░░░░░
+ *    ░█ ███         ░░░░░█ ███      ███░░░░░░░░░█ ███░░░░░░█ ███░░█   ███ ░░░█ ███░░░░░░█ ███░░░░░
+ *     ░█ ███░░░░░░░░░░░░░░█ ███░░░░█  ███░░░░░░░░█ ███░░░░░░█ ███░░░░█   ░░░░░█ ███░░░░░░█ ███░░░░░
+ *      ░█ ███░░░░░░░░░░░░░░█ ███░░░░░█  ███░░░░░░░█ ███░░░░░░█ ███░░░░░░░░░░░░░█ ███░░░░░░█ ███░░░░░
+ *       ░█ ███░░░░░░░░░░░░░░█ ███░░░░░░█  ███░░░ ███████████░░█ ███░░░░░░░░░░░░░█ ███░░░ ███████████░
+ *        ░█   ░░░░░░░░░░░░░░░█   ░░░░░░░░█   ░░░█           ░░░█   ░░░░░░░░░░░░░░█   ░░░█           ░░
+ * ░░ ███████████████░░░ ███████████░░░ ███░░░░░░░░ ███░░░ ███████████████░░░░░░ ███████████░░░
+ *  ░█       ███     ░░░█     ███   ░░░█ ███░░░░░░░█ ███░░█ ███           ░░░░░ ███         ███░
+ *   ░░░░░░░█ ███░░░░░░░░░░░░█ ███░░░░░░█  ███░░░░░░ ███░░░█ ███░░░░░░░░░░░░░░░█  ███░░░░░░█   ░░
+ *    ░░░░░░░█ ███░░░░░░░░░░░░█ ███░░░░░░░█  ███░░░░ ███░░░░█ ███████████░░░░░░░░█    ███░░░░░░░░░
+ *     ░░░░░░░█ ███░░░░░░░░░░░░█ ███░░░░░░░░█  ███░░ ███░░░░░█ ███       ░░░░░░░░░░░░█    ███░░░░░░
+ *      ░░░░░░░█ ███░░░░░░░░░░░░█ ███░░░░░░░░░█  ███ ███░░░░░░█ ███░░░░░░░░░░░░░░░░░░░░░░█    ███░░░
+ *       ░░░░░░░█ ███░░░░░░░░░░░░█ ███░░░░░░░░░░█  █████░░░░░░░█ ███░░░░░░░░░░░░░░░ ███░░░░░░█  ███░░
+ *        ░░░░░░░█ ███░░░░░░░░░ ███████████░░░░░░░█  ███░░░░░░░░█ ███████████████░░█   ███████████ ░░░
+ *         ░░░░░░░█   ░░░░░░░░░█           ░░░░░░░░░█   ░░░░░░░░░█               ░░░░░█           ░░░░░
+ */
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ *
+ * SVG
+ *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.lblb-svg svg {
+  display: block;
+}
+
 /* 
  * ░░ ███████████████░░░ ███████████████░░░ ███░░░░░░░ ███░░░ ███████████████░░░░░░░░░
  *  ░█       ███     ░░░█ ███           ░░░█   ███░░░ ███ ░░░█       ███     ░░░░░░░░░░
@@ -1362,5 +1393,156 @@
   .lblb-annotation_small {
     font-size: 0.75rem;
     line-height: 1rem;
+  }
+}
+
+/* 
+ * ░░ █████████████░░░░░ ███░░░░░░░░░░░░░░░░░░░░ █████░░░░░░░░░░░░░░ █████████░░░ ███░░░░░░░░ ███░░░░░░ ███████████░░░
+ *  ░█ ███         ███░░█ ███░░░░░░░░░░░░░░░░░░ ███   ███░░░░░░░░░ ███        ░░░█ ███░░░░░ ███  ░░░░░ ███         ███░
+ *   ░█ ███░░░░░░░█ ███░░█ ███░░░░░░░░░░░░░░░░ ███ ░░█   ███░░░░░ ███ ░░░░░░░░░░░░█ ███░░ ███  ░░░░░░░█  ███░░░░░░█   ░░
+ *    ░█ ██████████████░░░█ ███░░░░░░░░░░░░░░░ ███░░░░░░█  ███░░░ ███░░░░░░░░░░░░░░█ ██████  ███░░░░░░░░█    ███░░░░░░░░░
+ *     ░█ ███         ███░░█ ███░░░░░░░░░░░░░░█ ███░░░░░░░█ ███░░█ ███░░░░░░░░░░░░░░█ ███  ░█  ███░░░░░░░░░░█    ███░░░░░░
+ *      ░█ ███░░░░░░░█ ███░░█ ███░░░░░░░░░░░░░░█  ███░░░░░░ ███░░░█  ███░░░░░░░░░░░░░█ ███░░░░█  ███░░░░░░░░░░░░█    ███░░░
+ *       ░█ ███░░░░░░░█ ███░░█ ███░░░░░░░░░░░░░░░█   ███░░ ███░░░░░░█   ███░░░░░░░░░░░█ ███░░░░░█  ███░░░░ ███░░░░░░█  ███░░
+ *        ░█ █████████████ ░░░█ ███████████████░░░░░█   █████ ░░░░░░░░░█    █████████░░█ ███░░░░░░█  ███░░█   ███████████ ░░░
+ *         ░█             ░░░░░█               ░░░░░░░░█     ░░░░░░░░░░░░░░█         ░░░█   ░░░░░░░░█   ░░░░░█           ░░░░░
+ */
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ *
+ * SHARE ARTICLE
+ *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.lblb-share-article {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.lblb-share-article__facebook-button,
+.lblb-share-article__twitter-button,
+.lblb-share-article__printer-button,
+.lblb-share-article__e-mail-button {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  padding: .5rem;
+  cursor: pointer;
+  transition: background 200ms;
+}
+
+.lblb-share-article__facebook-button {
+  background: #3D69AF;
+}
+
+.lblb-share-article__facebook-button:hover {
+  background: #23539E;
+}
+
+.lblb-share-article__twitter-button {
+  background: #00AFEE;
+}
+
+.lblb-share-article__twitter-button:hover {
+  background: #0098CE;
+}
+
+.lblb-share-article__printer-button,
+.lblb-share-article__e-mail-button {
+  background: #FFFFFF;
+}
+
+.lblb-share-article__printer-button:hover,
+.lblb-share-article__e-mail-button:hover {
+  background: #F9F9F9;
+}
+
+.lblb-share-article__printer-button {
+  border-left: 1px solid #DDDDDD;
+  border-bottom: 1px solid #DDDDDD;
+  border-right: 1px solid #DDDDDD;
+}
+
+.lblb-share-article__e-mail-button {
+  border-bottom: 1px solid #DDDDDD;
+  border-right: 1px solid #DDDDDD;
+}
+
+.lblb-share-article__facebook-button .lblb-svg,
+.lblb-share-article__twitter-button .lblb-svg {
+  margin-right: .5rem;
+}
+
+.lblb-share-article__facebook-button .lblb-svg #fill-1,
+.lblb-share-article__twitter-button .lblb-svg #fill-1 {
+  fill: #FFFFFF;
+}
+
+.lblb-share-article__facebook-button .lblb-paragraph,
+.lblb-share-article__twitter-button .lblb-paragraph {
+  color: #FFFFFF;
+}
+
+.lblb-share-article__printer-button .lblb-svg #fill-1,
+.lblb-share-article__e-mail-button .lblb-svg #fill-1 {
+  fill: #666666;
+}
+
+/* 'short' modifier */
+.lblb-share-article_short .lblb-share-article__printer-button,
+.lblb-share-article_short .lblb-share-article__e-mail-button {
+  display: none;
+}
+
+.lblb-share-article_short .lblb-share-article__facebook-button .lblb-paragraph {
+  color: #3D69AF;
+}
+
+.lblb-share-article_short .lblb-share-article__twitter-button .lblb-paragraph {
+  color: #00AFEE;
+}
+
+.lblb-share-article_short .lblb-share-article__facebook-button,
+.lblb-share-article_short .lblb-share-article__twitter-button {
+  background: #FFFFFF;
+}
+
+.lblb-share-article_short .lblb-share-article__facebook-button:hover,
+.lblb-share-article_short .lblb-share-article__twitter-button:hover {
+  background: #F9F9F9;
+}
+
+.lblb-share-article_short .lblb-share-article__facebook-button .lblb-svg #fill-1 {
+  fill: #3D69AF;
+}
+
+.lblb-share-article_short .lblb-share-article__twitter-button .lblb-svg #fill-1 {
+  fill: #00AFEE;
+}
+
+/* 'iconsOnly' modifier */
+.lblb-share-article_icons-only .lblb-share-article__facebook-button .lblb-svg,
+.lblb-share-article_icons-only .lblb-share-article__twitter-button .lblb-svg {
+  margin-right: 0;
+}
+
+.lblb-share-article_icons-only .lblb-share-article__facebook-button .lblb-paragraph,
+.lblb-share-article_icons-only .lblb-share-article__twitter-button .lblb-paragraph {
+  display: none;
+}
+
+/* Responsive */
+@media screen and (max-width: 63rem) {
+  .lblb-share-article__facebook-button .lblb-svg,
+  .lblb-share-article__twitter-button .lblb-svg {
+    margin-right: 0;
+  }
+
+  .lblb-share-article__facebook-button .lblb-paragraph,
+  .lblb-share-article__twitter-button .lblb-paragraph {
+    display: none;
   }
 }

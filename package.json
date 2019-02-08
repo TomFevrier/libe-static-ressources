@@ -1,0 +1,24 @@
+{
+  "name": "libe-static-ressources",
+  "version": "1.0.0",
+  "description": "Static ressources used by Libé Labo at Libération. Hosted at http://www.liberation.fr/apps/static/",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "python serve.py 3003"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/libe-max/libe-static-ressources.git"
+  },
+  "author": "Maxime Fabas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/libe-max/libe-static-ressources/issues"
+  },
+  "homepage": "https://github.com/libe-max/libe-static-ressources#readme",
+  "dependencies": {}
+}
