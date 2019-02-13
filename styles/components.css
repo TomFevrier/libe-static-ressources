@@ -1028,14 +1028,16 @@
   font-family: 'Georgia';
 }
 
-.lblb-paragraph a {
+.lblb-paragraph a,
+.lblb-paragraph__link {
   color: unset;
   cursor: pointer;
   text-decoration: none;
   border-bottom: 1px solid #e91845;
 }
 
-.lblb-paragraph a:hover {
+.lblb-paragraph a:hover,
+.lblb-paragraph__link:hover {
   border-bottom-width: 2px;
 }
 
