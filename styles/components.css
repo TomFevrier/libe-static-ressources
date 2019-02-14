@@ -1002,6 +1002,7 @@
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 .lblb-paragraph {
+  display: inline-block;
   font-family: 'Synthese';
   font-size: 1.125rem;
   line-height: 1.5rem;
@@ -1092,6 +1093,7 @@
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 .lblb-slug {
+  display: inline-block;
   padding: .3rem .5rem .2rem;
   background: #e91845;
   font-family: 'Libe-Sans-Semicondensed';
@@ -1317,6 +1319,7 @@
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 .lblb-annotation {
+  display: inline-block;
   font-family: 'Synthese';
   font-size: 0.875rem;
   line-height: 1rem;
