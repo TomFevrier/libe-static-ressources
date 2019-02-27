@@ -118,7 +118,7 @@
 .lblb-page-title h6,
 .lblb-page-title span {
   display: block;
-  font-family: 'Libe-Sans';
+  font-family: 'Libe-Sans', Helvetica, Arial, sans-serif;
   font-size: 5.375rem;
   line-height: 5.5rem;
   font-weight: 800;
@@ -265,7 +265,7 @@
 .lblb-inter-title h6,
 .lblb-inter-title span {
   display: block;
-  font-family: 'Libe-Sans';
+  font-family: 'Libe-Sans', Helvetica, Arial, sans-serif;
   font-size: 3.375rem;
   line-height: 3.5rem;
   font-weight: 800;
@@ -405,7 +405,7 @@
 
 .lblb-overhead span {
   display: block;
-  font-family: 'Libe-Sans';
+  font-family: 'Libe-Sans', Helvetica, Arial, sans-serif;
   font-size: 2.25rem;
   line-height: 2.5rem;
   font-weight: 800;
@@ -480,7 +480,7 @@
 
 .lblb-hat em {
   display: block;
-  font-family: 'Synthese';
+  font-family: 'Synthese', Helvetica, Arial, sans-serif;
   font-size: 2.25rem;
   line-height: 2.5rem;
   font-weight: 400;
@@ -561,7 +561,7 @@
 .lblb-section-title h6,
 .lblb-section-title span {
   display: block;
-  font-family: 'Libe-Sans';
+  font-family: 'Libe-Sans', Helvetica, Arial, sans-serif;
   font-size: 2.25rem;
   line-height: 2.5rem;
   font-weight: 800;
@@ -707,7 +707,7 @@
 .lblb-block-title h6,
 .lblb-block-title span {
   display: block;
-  font-family: 'Libe-Sans';
+  font-family: 'Libe-Sans', Helvetica, Arial, sans-serif;
   font-size: 1.375rem;
   line-height: 1.5rem;
   font-weight: 800;
@@ -853,7 +853,7 @@
 .lblb-paragraph-title h6,
 .lblb-paragraph-title span {
   display: block;
-  font-family: 'Synthese';
+  font-family: 'Synthese', Helvetica, Arial, sans-serif;
   font-size: 1.375rem;
   line-height: 1.5rem;
   font-weight: 600;
@@ -900,7 +900,7 @@
 .lblb-paragraph-title_literary h5,
 .lblb-paragraph-title_literary h6,
 .lblb-paragraph-title_literary span {
-  font-family: 'Georgia';
+  font-family: 'Georgia', serif;
 }
 
 @media screen and (max-width: 63rem) {
@@ -1003,7 +1003,7 @@
 
 .lblb-paragraph {
   display: inline-block;
-  font-family: 'Synthese';
+  font-family: 'Synthese', Helvetica, Arial, sans-serif;
   font-size: 1.125rem;
   line-height: 1.5rem;
   font-weight: 400;
@@ -1026,7 +1026,7 @@
 }
 
 .lblb-paragraph_literary {
-  font-family: 'Georgia';
+  font-family: 'Georgia', serif;
 }
 
 .lblb-paragraph a,
@@ -1096,7 +1096,7 @@
   display: inline-block;
   padding: .3rem .5rem .2rem;
   background: #e91845;
-  font-family: 'Libe-Sans-Semicondensed';
+  font-family: 'Libe-Sans-Semicondensed', Helvetica, Arial, sans-serif;
   font-size: 1rem;
   line-height: 1rem;
   font-weight: 400;
@@ -1178,7 +1178,7 @@
 .lblb-annotation-title h6,
 .lblb-annotation-title span {
   display: block;
-  font-family: 'Libe-Sans-Semicondensed';
+  font-family: 'Libe-Sans-Semicondensed', Helvetica, Arial, sans-serif;
   font-size: 1rem;
   line-height: 1rem;
   font-weight: 600;
@@ -1320,7 +1320,7 @@
 
 .lblb-annotation {
   display: inline-block;
-  font-family: 'Synthese';
+  font-family: 'Synthese', Helvetica, Arial, sans-serif;
   font-size: 0.875rem;
   line-height: 1rem;
   font-weight: 400;
@@ -1343,7 +1343,7 @@
 }
 
 .lblb-annotation_literary {
-  font-family: 'Georgia';
+  font-family: 'Georgia', serif;
 }
 
 .lblb-annotation a {
