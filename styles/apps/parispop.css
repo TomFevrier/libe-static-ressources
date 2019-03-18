@@ -97,8 +97,20 @@
   transition: opacity 200ms;
 }
 
-.parispop__app-logo {
+.parispop__intro-panel-triggerer {
   z-index: 14;
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 4rem;
+  opacity: 0;
+  background: cornflowerblue;
+}
+
+.parispop__app-logo {
+  z-index: 15;
   cursor: pointer;
   position: absolute;
   top: 2rem;
@@ -121,7 +133,7 @@
 }
 
 .parispop__intro-panel {
-  z-index: 15;
+  z-index: 16;
   position: absolute;
   left: 0;
   top: 0;
@@ -137,7 +149,7 @@
 }
 
 .parispop__cards-panel {
-  z-index: 16;
+  z-index: 17;
   position: absolute;
   right: 0;
   top: 0;
@@ -361,12 +373,19 @@
     line-height: 6.5rem;
 }
 
-.parispop__intro-first-go-to-map {
-  border: none;
-  background: #771619;
-  padding: 1rem;
-  cursor: pointer;
-  flex-grow: 0;
+.parispop__intro-illustration
+  .parispop__intro-first-go-to-map {
+    border: none;
+    background: #771619;
+    margin-top: 2rem;
+    cursor: pointer;
+    flex-grow: 0;
+}
+
+.parispop__intro-illustration
+  .parispop__intro-first-go-to-map
+    .lblb-paragraph {
+      margin-top: unset;
 }
 
 .parispop__intro-first-go-to-map
@@ -458,6 +477,11 @@
     .lblb-page-title span:nth-child(2) {
       font-size: 4.8rem;
       line-height: 5rem;
+  }
+
+  .parispop__intro-illustration
+    .parispop__intro-first-go-to-map {
+    margin-top: 1rem;
   }
 
   .parispop__intro-content {
@@ -747,12 +771,6 @@
   stroke: #212121;
 }
 
-/*.parispop__lf-map-marker {
-  stroke-width: 0;
-  fill-opacity: 1;
-  transition: opacity 200ms
-}*/
-
 .parispop__mb-map-marker:hover,
 .parispop__lf-map-marker:hover {
   box-shadow: 0 0 1rem 0 rgba(33, 33, 33, .3);
@@ -852,7 +870,6 @@
   position: sticky;
   top: 1.5rem;
   transform: translateX(-100%);
-  z-index: 100;
   width: 2.5rem;
   margin-left: calc(100% - 1.5rem);
   margin-top: -2.5rem;
@@ -860,8 +877,6 @@
   justify-content: space-between;
 }
 
-.parispop__card-prev,
-.parispop__card-next,
 .parispop__card-close {
   display: block;
   box-shadow: 0 0 0 .25rem rgba(33, 33, 33, .3);
@@ -895,7 +910,7 @@
 }
 
 .parispop__card-illustration img {
-  max-height: 35rem;
+  max-height: calc(20rem + 15vh);
 }
 
 .parispop__card-illustration-credits {
@@ -911,12 +926,23 @@
 .parispop__card-title,
 .parispop__card-share,
 .parispop__card-content,
-.parispop__card-signature,
-.parispop__card-read-also,
 .parispop__card-sources {
   margin-left: 2rem;
   margin-right: 2rem; 
   margin-bottom: 1rem;
+}
+
+.parispop__card-signature,
+.parispop__card-prev-next {
+  margin-left: 2rem;
+  margin-right: 2rem; 
+  margin-bottom: 3rem;
+}
+
+.parispop__card-read-also {
+  margin-left: 2rem;
+  margin-right: 2rem; 
+  margin-bottom: 2rem;
 }
 
 .parispop__card-slug
@@ -930,8 +956,15 @@
   align-self: center;
 }
 
-.parispop__card-share .lblb-share-article {
+.parispop__card-share .lblb-share-article,
+.parispop__card-share .parispop__card-share-link {
   margin-left: 1rem;
+}
+
+.parispop__card-share-hidden-link {
+  border: none;
+  color: transparent;
+  font-size: 4px;
 }
 
 .parispop__card-share .lblb-share-article > * {
@@ -967,14 +1000,58 @@
     color: #888;
 }
 
-.parispop__card-signature,
-.parispop__card-read-also {
-  margin-bottom: 2rem;
-}
-
+.parispop__card-prev-next .lblb-block-title,
 .parispop__card-read-also .lblb-block-title,
 .parispop__card-sources .lblb-block-title {
   margin-bottom: 1rem;
+}
+
+.parispop__card-prev-next
+  .lblb-block-title {
+    width: 100%;
+    flex-shrink: 0;
+}
+
+.parispop__card-prev-next
+  .parispop__card-prev-next-buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.parispop__card-prev-next .parispop__prev-card,
+.parispop__card-prev-next .parispop__next-card {
+  width: calc(50% - 8px);
+  cursor: pointer;
+  border: 1px solid #CCC;
+  border-top: .25rem solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.parispop__card-prev-next-buttons-text {
+  padding: 1rem;
+}
+
+.parispop__card-prev-next-buttons-button {
+  padding: 1rem;
+  background: #F8F8F8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parispop__card-prev-next .parispop__prev-card {
+  margin-right: .5rem;
+}
+
+.parispop__card-prev-next .parispop__next-card {
+  margin-left: .5rem;
+}
+
+.parispop__prev-card .lblb-slug,
+.parispop__next-card .lblb-slug {
+  background-color: #272726;
 }
 
 .parispop__card-source {
@@ -1004,6 +1081,7 @@
   .parispop__card-share,
   .parispop__card-content,
   .parispop__card-signature,
+  .parispop__card-prev-next,
   .parispop__card-read-also,
   .parispop__card-sources {
     margin-left: 1rem;
@@ -1029,6 +1107,7 @@
   .parispop__card-share,
   .parispop__card-content,
   .parispop__card-signature,
+  .parispop__card-prev-next,
   .parispop__card-read-also,
   .parispop__card-sources {
     margin-left: .5rem;
