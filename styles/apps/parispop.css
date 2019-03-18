@@ -328,7 +328,6 @@
  * * * * * * * * * * * * * */
 
 .parispop__intro {
-  position: relative;
   width: 100%;
 }
 
@@ -861,7 +860,6 @@
  * * * * * * * * * * * * * */
 
 .parispop__card {
-  position: relative;
   padding-bottom: 4rem;
   width: 100%;
 }
