@@ -1551,3 +1551,60 @@
     display: none;
   }
 }
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ *
+ * LOADER
+ *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.lblb-loader,
+.lblb-loader * {
+  display: inline-block;
+  line-height: .5rem;
+}
+
+.lblb-loader .lblb-svg {
+  width: 100%;
+}
+
+.lblb-loader_three-blinking-dots #fill-1,
+.lblb-loader_three-blinking-dots #fill-2,
+.lblb-loader_three-blinking-dots #fill-3 {
+  opacity: 0;
+  fill: #666666;
+  animation-name: lblb-loader_three-blinking-dots;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+
+.lblb-loader_three-blinking-dots #fill-1 {
+  animation-delay: 0ms;
+}
+
+.lblb-loader_three-blinking-dots #fill-2 {
+  animation-delay: 50ms;
+}
+
+.lblb-loader_three-blinking-dots #fill-3 {
+  animation-delay: 100ms;
+}
+
+@keyframes lblb-loader_three-blinking-dots {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ *
+ * LIBE LABO LOGO
+ *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.lblb-libe-labo-logo,
+.lblb-libe-labo-logo a,
+.lblb-libe-labo-logo img {
+  line-height: 1rem;
+  font-size: 1rem;
+  display: inline-block;
+}
