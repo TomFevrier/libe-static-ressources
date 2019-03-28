@@ -1015,7 +1015,7 @@
 
 .lblb-paragraph_big {
   font-size: 1.375rem;
-  line-height: 1.5rem;
+  line-height: 2rem;
 }
 
 .lblb-paragraph_huge {
@@ -1121,6 +1121,12 @@
 .lblb-slug_small {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.lblb-slug.lblb-slug_no-bg {
+  background: transparent;
+  color: #e91845;
+  padding: 0;
 }
 
 @media screen and (max-width: 63rem) {
@@ -1332,12 +1338,12 @@
 
 .lblb-annotation_big {
   font-size: 1.125rem;
-  line-height: 1.5rem;
+  line-height: 2rem;
 }
 
 .lblb-annotation_huge {
   font-size: 1.375rem;
-  line-height: 1.5rem;
+  line-height: 2rem;
 }
 
 .lblb-annotation_small {
@@ -1764,4 +1770,58 @@
     margin-left: 0rem;
     margin-right: 0rem;
   }
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ *
+ * BOTTOM NOTES
+ *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.lblb-bottom-notes__note_active {
+  background-color: rgba(233, 42, 59, .08);
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ *
+ * READ ALSO
+ *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.lblb-read-also {
+  border-top: 1px solid #DDDDDD;
+  border-bottom: 1px solid #DDDDDD;
+  padding: calc(.5rem - 1px) 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  cursor: pointer;
+  transition: background 200ms;
+}
+
+.lblb-read-also:hover {
+  background: #F9F9F9;
+}
+
+.lblb-read-also .lblb-slug {
+  margin-bottom: .5rem;
+}
+
+.lblb-read-also .lblb-paragraph a {
+  border-bottom: none;
+}
+
+/* 'small' modifier */
+.lblb-read-also.lblb-read-also_small .lblb-slug {
+  margin-bottom: unset;
+}
+
+/* 'big' modifier */
+.lblb-read-also.lblb-read-also_big {
+  padding: calc(1rem - 1px) 1rem;
+}
+
+/* 'huge' modifier */
+.lblb-read-also.lblb-read-also_huge {
+  padding: calc(1rem - 1px) 1rem;
 }
