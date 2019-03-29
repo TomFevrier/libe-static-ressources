@@ -1628,6 +1628,10 @@
   color: #666666;
 }
 
+.lblb-article-meta__line {
+  display: block;
+}
+
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
  *
  * PHOTO
@@ -1675,10 +1679,6 @@
   background: rgba(100, 100, 100, .3);
 }
 
-.lblb-photo:hover .lblb-photo__expand {
-  display: block;
-}
-
 .lblb-photo__expand .lblb-svg #background {
   fill: #212121;
   fill-opacity: .3;
@@ -1697,6 +1697,10 @@
 /* 'expandable' modifier */
 .lblb-photo.lblb-photo_expandable .lblb-photo__photo {
   cursor: zoom-in;
+}
+
+.lblb-photo_expandable:hover .lblb-photo__expand {
+  display: block;
 }
 
 /* 'expanded' modifier */
@@ -1824,4 +1828,71 @@
 /* 'huge' modifier */
 .lblb-read-also.lblb-read-also_huge {
   padding: calc(1rem - 1px) 1rem;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ *
+ * COPY VALUE
+ *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.lblb-copy-value {
+  display: flex;
+}
+
+.lblb-copy-value__button {
+  background: transparent;
+  padding: -1px;
+  border: 1px solid #DDDDDD;
+  cursor: pointer;
+  transition: background 200ms;  
+}
+
+.lblb-copy-value__input {
+  background: #F9F9F9;
+  border: none;
+  margin-left: .5rem;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  font-family: 'Synthese';
+  color: #666666;
+  padding: 0 .5rem;
+  flex-grow: 1;
+}
+
+/* 'hideField' modifier */
+.lblb-copy-value_hide-field .lblb-copy-value__input {
+  background: transparent;
+  color: transparent;
+  font-size: .01px;
+  padding: 0;
+  cursor: default;
+  flex-grow: unset;
+}
+
+/* 'copied' modifier */
+.lblb-copy-value_copied .lblb-copy-value__button {
+  background: #36FB8B;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ *
+ * RASTER MAP
+ *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.lblb-raster-map {
+  height: 100%;
+  background: blue;
+}
+
+.lblb-raster-map .leaflet-container {
+  width: 100%;
+  height: 100%;
+}
+
+.lblb-raster-map .leaflet-pane,
+.lblb-raster-map .leaflet-top,
+.lblb-raster-map .leaflet-bottom {
+  z-index: 1;
 }
