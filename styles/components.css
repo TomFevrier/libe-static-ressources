@@ -1864,7 +1864,7 @@
 .lblb-copy-value_hide-field .lblb-copy-value__input {
   background: transparent;
   color: transparent;
-  font-size: .01px;
+  font-size: 1px;
   padding: 0;
   cursor: default;
   flex-grow: unset;
