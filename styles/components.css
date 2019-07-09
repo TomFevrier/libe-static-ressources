@@ -1457,7 +1457,7 @@
 }
 
 .lblb-share-article__twitter-button {
-  background: #00AFEE;
+  background: #009FE3;
 }
 
 .lblb-share-article__twitter-button:hover {
@@ -1516,7 +1516,7 @@
 }
 
 .lblb-share-article_short .lblb-share-article__twitter-button .lblb-paragraph {
-  color: #00AFEE;
+  color: #009FE3;
 }
 
 .lblb-share-article_short .lblb-share-article__facebook-button,
@@ -1534,7 +1534,7 @@
 }
 
 .lblb-share-article_short .lblb-share-article__twitter-button .lblb-svg #fill-1 {
-  fill: #00AFEE;
+  fill: #009FE3;
 }
 
 /* 'iconsOnly' modifier */
@@ -1895,4 +1895,155 @@
 .lblb-raster-map .leaflet-top,
 .lblb-raster-map .leaflet-bottom {
   z-index: 1;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ *
+ * TWEET
+ *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.lblb-tweet {}
+
+.lblb-tweet img {
+  max-width: 100%;
+}
+
+.lblb-tweet__content {
+  background: #009fe3;
+  padding: 1rem;
+  position: relative;
+}
+
+.lblb-tweet__content:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  top: auto;
+  left: 10%;
+  bottom: -1.5rem;
+  border-width: 1.5rem 1.5rem 0 0;
+  border-color: #009fe3 transparent transparent transparent;
+}
+
+.lblb-tweet__content .lblb-paragraph {
+  color: #FFFFFF;
+}
+
+.lblb-tweet__content .lblb-paragraph a {
+  border-bottom-color: #FFFFFF;
+}
+
+.lblb-tweet__image {
+  display: none;
+}
+
+.lblb-tweet__image {
+  background-position: center;
+  background-size: cover;
+  max-height: 22rem;
+  overflow: hidden;
+}
+
+.lblb-tweet__image img {
+  display: block;
+  opacity: 0;
+}
+
+.lblb-tweet__meta {
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+}
+
+.lblb-tweet__date .lblb-paragraph:before {
+  content: ' ';
+  display: inline-block;
+}
+
+/* 'small' modifier */
+
+/* 'big' modifier */
+.lblb-tweet_big .lblb-tweet__content .lblb-paragraph > a:last-child {
+  margin-top: 1.5rem;
+}
+
+/* 'huge' modifier */
+.lblb-tweet_huge .lblb-tweet__content .lblb-paragraph > a:last-child {
+  margin-top: 2rem;
+}
+
+/* 'with-img' modifier */
+.lblb-tweet_with-img .lblb-tweet__image {
+  display: block;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ *
+ * HERO
+ *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.lblb-hero {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.lblb-hero__inner {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.lblb-hero__content {
+  z-index: 2;
+  max-width: 60%;
+  position: absolute;
+  transform: translateY(-50%);
+}
+
+.lblb-hero__illustration {
+  z-index: 1;
+  position: absolute;
+  width: 1px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.lblb-hero__illustration img {
+  height: auto;
+  display: block;
+  transform: translate(-50%, -50%);
+}
+
+/* 'text-shadow' modifier */
+.lblb-hero_text-shadow .lblb-hero__illustration img {
+  box-shadow: 0 .25rem 1rem rgba(34, 34, 34, .5);
+}
+
+/* 'illustration-shadow' modifier */
+.lblb-hero_illustration-shadow .lblb-hero__content * {
+  text-shadow: .125rem .125rem .125rem rgba(34, 34, 34, .5);
+}
+
+@media screen and (max-width: 63rem) {
+  .lblb-hero__content {
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 40rem) {
+  .lblb-hero__content {
+    max-width: 100%;
+  }
 }
