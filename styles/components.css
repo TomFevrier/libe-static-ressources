@@ -2061,8 +2061,60 @@
  */
 
 .lblb-grid {
+  position: relative;
+}
+
+.lblb-grid__inner {
   width: 100%;
   position: relative;
   display: flex;
   flex-wrap: wrap;
+}
+
+.lblb-grid__visible-grid {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.lblb-grid__visible-column {
+  flex-grow: 1;
+  background: #212121;
+  opacity: 0.1;
+}
+
+.lblb-grid__visible-column-inner {
+  flex-grow: 1;
+  background: #FFFFFF;
+  height: 100%;
+}
+
+.lblb-grid_show-grid .lblb-grid__visible-grid {
+  display: flex;
+}
+
+.lblb-grid_show-grid .lblb-grid__visible-grid.lblb-grid__visible-grid_md,
+.lblb-grid_show-grid .lblb-grid__visible-grid.lblb-grid__visible-grid_sm {
+  display: none;
+}
+
+@media screen and (max-width: 63rem) {
+  .lblb-grid_show-grid .lblb-grid__visible-grid.lblb-grid__visible-grid_lg {
+    display: none;
+  }
+  .lblb-grid_show-grid .lblb-grid__visible-grid.lblb-grid__visible-grid_md {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 40rem) {
+  .lblb-grid_show-grid .lblb-grid__visible-grid.lblb-grid__visible-grid_md {
+    display: none;
+  }
+  .lblb-grid_show-grid .lblb-grid__visible-grid.lblb-grid__visible-grid_sm {
+    display: flex;
+  }
 }
