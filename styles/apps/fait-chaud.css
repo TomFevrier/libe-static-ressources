@@ -68,6 +68,7 @@
 .lblb-fait-chaud__button button {
   width: 10rem;
   height: 10rem;
+  border: none;
   background-color: red;
   border-radius: 5rem;
   margin-bottom: 0.5rem;
