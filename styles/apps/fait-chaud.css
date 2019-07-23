@@ -1,3 +1,7 @@
+body {
+  padding: 0 .5rem;
+}
+
 .lblb-fait-chaud__loader,
 .lblb-fait-chaud__loading-error {
   display: none;
@@ -108,13 +112,27 @@
   letter-spacing: 0.03rem;
 }
 
+.lblb-fait-chaud__heatmap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
 .lblb-fait-chaud__heatmap__bars {
   display: flex;
+  width: 100%;
   height: 300px;
 }
 
 .lblb-fait-chaud__heatmap__today {
   width: 100%;
+  max-width: 25rem;
+}
+
+@media screen and (max-width: 63rem) {
+  .lblb-fait-chaud__heatmap__today {
+    max-width: 18rem;
+  }  
 }
 
 .lblb-fait-chaud__heatmap__today .lblb-block-title {
@@ -132,7 +150,7 @@
 }
 
 .lblb-fait-chaud__heatmap:hover .lblb-fait-chaud__result-bar {
-  opacity: 0.6;
+  opacity: 0.8;
 }
 
 .lblb-fait-chaud__result-bar {
