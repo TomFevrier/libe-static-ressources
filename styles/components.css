@@ -1995,7 +1995,6 @@
   overflow: hidden;
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
 }
 
 .lblb-hero__inner {
@@ -2024,6 +2023,11 @@
   height: auto;
   display: block;
   transform: translate(-50%, -50%);
+}
+
+/* 'parallax' modifier */
+.lblb-hero.lblb-hero_parallax {
+  background-attachment: fixed;
 }
 
 /* 'text-shadow' modifier */
