@@ -12,13 +12,27 @@
   }  
 }
 
-.lblb-evolution-classement {
-  /*position: relative;*/
-}
-
 .lblb-evolution-classement__intro {
   padding-top: 1.5rem;
   padding-bottom: 3rem;
+}
+
+.lblb-evolution-classement__share {
+  display: flex;
+  justify-content: center;
+}
+
+.lblb-evolution-classement__share .lblb-share-article {
+  max-width: calc(100vw - 2rem);
+  width: 30rem;
+  margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 63rem) {
+  .lblb-evolution-classement__share .lblb-share-article {
+    width: 20rem;
+    margin-bottom: 2rem;
+  }  
 }
 
 .lblb-evolution-classement__header {
