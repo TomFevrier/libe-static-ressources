@@ -38,6 +38,12 @@ body {
 /* DEFAULT SIGNATURE */
 .lblb-default-apps-signature {
   margin: 3rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.lblb-default-apps-signature .lblb-article-meta {
+  text-align: center;
 }
 
 /* DEFAULT SOCIAL & LOGO */
