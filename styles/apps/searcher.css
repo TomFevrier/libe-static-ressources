@@ -1,0 +1,25 @@
+.lblb-searcher {
+  margin-top: 3rem;
+}
+
+.lblb-searcher__header .lblb-slot__inner > * {
+  margin-bottom: 2rem;
+}
+
+.lblb-searcher__entries {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.lblb-searcher__entry {
+  width: calc((100% / 5) - 2rem);
+  flex-grow: 0;
+  flex-shrink: 0;
+  height: 12vw;
+  margin: 1rem;
+  background: coral;
+}
+
+.lblb-default-apps-footer {
+  margin-top: 3rem;
+}
