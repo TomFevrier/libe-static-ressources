@@ -2,24 +2,97 @@
   margin-top: 3rem;
 }
 
+@media screen and (max-width: 63rem) {
+  .lblb-searcher {
+    margin-top: 2rem;
+  }  
+}
+
+/* Header */
+.lblb-searcher__header .lblb-slot__inner {
+  display: flex;
+  flex-direction: column;
+}
+
 .lblb-searcher__header .lblb-slot__inner > * {
   margin-bottom: 2rem;
 }
 
+.lblb-searcher__header .lblb-slug {
+  align-self: flex-start;
+}
+
+.lblb-searcher__header .lblb-share-article {
+  max-width: 12rem;
+}
+
+.lblb-searcher__header .lblb-libe-labo-logo {
+  max-width: 8rem;
+  align-self: center;
+}
+
+@media screen and (max-width: 63rem) {
+  .lblb-searcher__header .lblb-slot__inner {
+    align-items: center;
+  }
+
+  .lblb-searcher__header .lblb-slug {
+    align-self: center;
+  }
+
+  .lblb-searcher__header .lblb-slot__inner > * {
+    text-align: center;
+  }
+
+  .lblb-searcher__header .lblb-libe-labo-logo {
+    display: none;
+  }
+}
+
+/* Entries */
 .lblb-searcher__entries {
   display: flex;
   flex-wrap: wrap;
+  /*justify-content: center;*/
 }
 
 .lblb-searcher__entry {
-  width: calc((100% / 5) - 2rem);
+  width: calc((100% / 5) - 1rem);
   flex-grow: 0;
   flex-shrink: 0;
   height: 12vw;
-  margin: 1rem;
+  margin: .5rem;
   background: coral;
 }
 
+@media screen and (max-width: 100rem) {
+  .lblb-searcher__entry {
+    width: calc((100% / 4) - 1rem);
+    height: 14vw;
+  }
+}
+
+@media screen and (max-width: 63rem) {
+  .lblb-searcher__entry {
+    height: 20vw;
+  }
+}
+
+@media screen and (max-width: 40rem) {
+  .lblb-searcher__entry {
+    width: calc((100% / 3) - 1rem);
+    height: 26vw;
+  }
+}
+
+@media screen and (max-width: 30rem) {
+  .lblb-searcher__entry {
+    width: calc((100% / 2) - 1rem);
+    height: 40vw;
+  }
+}
+
+/* Footer */
 .lblb-default-apps-footer {
   margin-top: 3rem;
 }
