@@ -1,6 +1,5 @@
 .lblb-searcher {
   margin-top: 3rem;
-  margin-bottom: 4000px;
 }
 
 @media screen and (max-width: 63rem) {
@@ -592,6 +591,14 @@
   width: 100%;
   border-radius: .125rem;
   background-size: 100% 100%;
+}
+
+.lblb-searcher__age-gauge-cursor {
+  position: absolute;
+  height: 2rem;
+  width: .25rem;
+  transform: translateX(-50%);
+  background: #212121;
 }
 
 /* Footer */
