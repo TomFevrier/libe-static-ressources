@@ -26,12 +26,10 @@
   max-width: 35rem;
 }
 
-.lblb-searcher__header .lblb-paragraph {
+.lblb-searcher__header .lblb-paragraph,
+.lblb-searcher__header .lblb-share-article,
+.lblb-searcher__header .lblb-article-meta {
   max-width: 35rem;
-}
-
-.lblb-searcher__header .lblb-share-article {
-  max-width: 12rem;
 }
 
 .lblb-searcher__header .lblb-libe-labo-logo {
