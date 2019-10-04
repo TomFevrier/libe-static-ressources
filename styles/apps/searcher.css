@@ -22,6 +22,14 @@
   align-self: flex-start;
 }
 
+.lblb-searcher__header .lblb-inter-title {
+  max-width: 35rem;
+}
+
+.lblb-searcher__header .lblb-paragraph {
+  max-width: 35rem;
+}
+
 .lblb-searcher__header .lblb-share-article {
   max-width: 12rem;
 }
