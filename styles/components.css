@@ -1583,7 +1583,7 @@
   opacity: 0;
   fill: #666666;
   animation-name: lblb-loader_three-blinking-dots;
-  animation-duration: 1.5s;
+  animation-duration: .6s;
   animation-iteration-count: infinite;
 }
 
