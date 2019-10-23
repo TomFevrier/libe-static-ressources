@@ -2079,6 +2079,12 @@
  *         ░█               ░░░█   ░░░░░░░░█   ░░░░░░░░░█   ░░░░░░░░░░░░░░█     ░░░░░░░░░░░█         ░░░░░░░░░░░░█   ░░░░░░░░
  */
 
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ *
+ * GRID
+ *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
 .lblb-grid {
   position: relative;
 }
@@ -2137,3 +2143,58 @@
     display: flex;
   }
 }
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ *
+ * ARTICLE
+ *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.lblb-article {
+  background: coral;
+}
+
+.lblb-article .lblb-page-title {
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+}
+
+.lblb-article .lblb-paragraph,
+.lblb-article .lblb-paragraph_small {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+.lblb-article .lblb-paragraph.lblb-paragraph_big,
+.lblb-article .lblb-paragraph.lblb-paragraph_huge {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+
+/*.lblb-page-title
+line-height: 5.5rem;
+.lblb-page-title_big
+line-height: 7rem;
+.lblb-page-title_huge
+line-height: 8.5rem;
+.lblb-page-title_small
+line-height: 4.5rem;
+@media screen and (max-width: 63rem) {
+.lblb-page-title
+line-height: 4rem;
+.lblb-page-title_big
+line-height: 5rem;
+.lblb-page-title_huge
+line-height: 6rem;
+.lblb-page-title_small
+line-height: 3.5rem;
+@media screen and (max-width: 40rem) {
+.lblb-page-title
+line-height: 3.5rem;
+.lblb-page-title_big
+line-height: 4rem;
+.lblb-page-title_huge
+line-height: 5rem;
+.lblb-page-title_small
+line-height: 3rem;*/
