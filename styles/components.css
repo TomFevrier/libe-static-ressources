@@ -1903,8 +1903,6 @@
  *
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
-.lblb-tweet {}
-
 .lblb-tweet img {
   max-width: 100%;
 }
@@ -1927,6 +1925,11 @@
   bottom: -1.5rem;
   border-width: 1.5rem 1.5rem 0 0;
   border-color: #009fe3 transparent transparent transparent;
+}
+
+.lblb-tweet_loading .lblb-loader svg {
+  height: 2rem;
+  width: 2rem;
 }
 
 .lblb-tweet__content .lblb-paragraph {
@@ -1978,6 +1981,18 @@
 /* 'with-img' modifier */
 .lblb-tweet_with-img .lblb-tweet__image {
   display: block;
+}
+
+/* 'loading' modifier */
+.lblb-tweet_loading .lblb-tweet__content {
+  display: flex;
+  justify-content: center;
+}
+
+.lblb-tweet_loading .lblb-loader_three-blinking-dots #fill-1,
+.lblb-tweet_loading .lblb-loader_three-blinking-dots #fill-2,
+.lblb-tweet_loading .lblb-loader_three-blinking-dots #fill-3 {
+  fill: #FFFFFF;
 }
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
