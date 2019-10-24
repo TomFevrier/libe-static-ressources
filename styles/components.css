@@ -1947,7 +1947,7 @@
 .lblb-tweet__image {
   background-position: center;
   background-size: cover;
-  max-height: 22rem;
+  max-height: 32rem;
   overflow: hidden;
 }
 
@@ -2151,7 +2151,7 @@
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 .lblb-article {
-  background: coral;
+  
 }
 
 .lblb-article .lblb-page-title {
