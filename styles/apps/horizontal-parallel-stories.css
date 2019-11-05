@@ -26,7 +26,6 @@
 /* 'desktop' modifier */
 .lblb-horizontal-parallel-stories__home-wrapper.lblb-horizontal-parallel-stories__home-wrapper_desktop {
   width: 100%;
-  height: calc(100vh - 65px);
   position: relative;
 }
 
@@ -223,10 +222,11 @@
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 .lblb-horizontal-parallel-stories__story {
   display: flex;
+  height: 100%;
 }
 
 .lblb-horizontal-parallel-stories__story-cover {
-  height: calc(100vh - 65px);
+  height: 100%;
   width: 25rem;
   background: violet;
   display: flex;
@@ -246,7 +246,7 @@
 }
 
 .lblb-horizontal-parallel-stories__story-text-slot,
-.lblb-horizontal-parallel-stories__story-images-slot {
+.lblb-horizontal-parallel-stories__story-image-slot {
   margin-right: 6rem;
   max-height: 80vh;
   height: 400px;
@@ -267,6 +267,22 @@
   left: 0;
   right: 0;
   background: limegreen;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.lblb-horizontal-parallel-stories__story-desktop-controls button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.lblb-horizontal-parallel-stories__story-desktop-controls
+  .lblb-svg #fill-1 {
+    fill: #FFFFFF;
 }
 
 .lblb-horizontal-parallel-stories__story-mobile-controls {
@@ -293,7 +309,7 @@
   }
 
   .lblb-horizontal-parallel-stories__story-text-slot,
-  .lblb-horizontal-parallel-stories__story-images-slot {
+  .lblb-horizontal-parallel-stories__story-image-slot {
     margin-bottom: 3rem;
     margin-right: unset;
     max-height: unset;
