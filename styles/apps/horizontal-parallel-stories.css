@@ -1,7 +1,23 @@
-.lblb-horizontal-parallel-stories {
-  
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ *
+ * LIBÉ HEADER
+ *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+nav.main-nav {
+  box-shadow: 0 .125rem .125rem 0 rgba(33, 33, 33, .1);
 }
 
+@media screen and (max-width: 63rem) {
+  nav.main-nav {
+    box-shadow: unset;
+  }
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ *
+ * APP
+ *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 .lblb-horizontal-parallel-stories__story-wrapper {
   display: none;
 }
@@ -30,15 +46,15 @@
 }
 
 .lblb-horizontal-parallel-stories__desktop-title-and-intro {
-  background: rgba(255, 255, 255, .9);
+  background: #FFFFFF;
   position: absolute;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   transform: translateX(-50%);
-  bottom: 4rem;
-  padding: 2rem;
+  bottom: 2rem;
+  padding: 1rem;
   left: 50%;
 }
 
@@ -48,6 +64,10 @@
 
 .lblb-horizontal-parallel-stories__desktop-title-and-intro > *:last-child {
   margin-bottom: unset;
+}
+
+.lblb-horizontal-parallel-stories__desktop-title-and-intro .lblb-paragraph {
+  max-width: 42rem;
 }
 
 .lblb-horizontal-parallel-stories__desktop-title-and-intro .lblb-share-article {
@@ -92,6 +112,13 @@
   cursor: pointer;
 }
 
+.lblb-horizontal-parallel-stories__desktop-door
+  .lblb-block-title h4 {
+    color: #FFFFFF;
+    letter-spacing: .03rem;
+    text-shadow: 0 .125rem 1px rgba(33, 33, 33, .4);
+}
+
 .lblb-horizontal-parallel-stories__desktop-doors:hover
   .lblb-horizontal-parallel-stories__desktop-door {
     opacity: .8;
@@ -109,9 +136,9 @@
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 .lblb-horizontal-parallel-stories__mobile-cover-image {
   width: 100%;
-  height: 44rem;
+  height: 36rem;
   background-size: cover;
-  background-position: center;
+  background-position: top center;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -131,6 +158,13 @@
 .lblb-horizontal-parallel-stories__mobile-title {
   text-align: center;
   margin-bottom: 2rem;
+}
+
+.lblb-horizontal-parallel-stories__mobile-title
+  .lblb-section-title h1 {
+    color: #FFFFFF;
+    letter-spacing: .03rem;
+    text-shadow: 0 .125rem 1px rgba(33, 33, 33, .4);
 }
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
@@ -207,6 +241,17 @@
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
  *
+ * MOBILE DEFAULT FOOTER
+ *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+@media screen and (max-width: 63rem) {
+  .lblb-default-apps-footer {
+    padding: 0 1rem;
+  }
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ *
  * STORIES
  *
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
@@ -224,6 +269,19 @@
   flex-direction: column;
   align-items: center;
   position: relative;
+  box-shadow: 0 0 2rem 0 rgba(33, 33, 33, .3);
+}
+
+.lblb-horizontal-parallel-stories__story-title {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.lblb-horizontal-parallel-stories__story-title
+  .lblb-block-title h4 {
+    color: #FFFFFF;
+    letter-spacing: .03rem;
+    text-shadow: 0 .125rem .0625rem rgba(33, 33, 33, .4);
 }
 
 .lblb-horizontal-parallel-stories__story-content {
@@ -238,25 +296,24 @@
 .lblb-horizontal-parallel-stories__story-text-slot,
 .lblb-horizontal-parallel-stories__story-image-slot {
   margin-right: 6rem;
-  max-height: 80vh;
-  width: 25rem;
   flex-shrink: 0;
   flex-grow: 0;
 }
 
+.lblb-horizontal-parallel-stories__story-text-slot {
+  width: 32rem;
+}
+
 .lblb-horizontal-parallel-stories__story-image-slot {
-  display: flex;
-  flex-wrap: wrap;
+  max-height: 70vh;
+  overflow: hidden;
 }
 
 .lblb-horizontal-parallel-stories__story-image-slot
-  .lblb-photo {
-    width: 50%;
-}
-
-.lblb-horizontal-parallel-stories__story-title {
-  margin-top: 2rem;
-  text-align: center;
+  .lblb-photo__unexpanded-panel
+    .lblb-photo__photo {
+      height: 70vh;
+      width: auto;
 }
 
 .lblb-horizontal-parallel-stories__story-desktop-controls {
@@ -264,10 +321,10 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: #4E5258;
+  background: #525467;
   display: flex;
   justify-content: space-between;
-  padding: 1rem;
+  padding: 1rem .5rem;
 }
 
 .lblb-horizontal-parallel-stories__story-desktop-controls button {
@@ -279,6 +336,33 @@
 }
 
 .lblb-horizontal-parallel-stories__story-desktop-controls
+  .lblb-horizontal-parallel-stories__story-go-prev {
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.lblb-horizontal-parallel-stories__story-desktop-controls
+  .lblb-horizontal-parallel-stories__story-go-home {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.lblb-horizontal-parallel-stories__story-desktop-controls
+  .lblb-horizontal-parallel-stories__story-go-next {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.lblb-horizontal-parallel-stories__story-desktop-controls
   .lblb-svg #fill-1 {
     fill: #FFFFFF;
 }
@@ -286,7 +370,7 @@
 .lblb-horizontal-parallel-stories__story-desktop-controls
   .heading {
     color: #FFFFFF;
-    letter-spacing: .02rem;
+    letter-spacing: .03rem;
     font-weight: 400;
 }
 
@@ -308,6 +392,24 @@
   .lblb-horizontal-parallel-stories__story-cover {
     height: 22rem;
     width: 100%;
+    box-shadow: unset;
+  }
+
+  .lblb-horizontal-parallel-stories__story-title {
+    margin-top: unset;
+    position: absolute;
+    left: .5rem;
+    right: .5rem;
+    bottom: 0;
+    padding: .5rem;
+    background: #FFFFFF;
+    text-align: left;
+  }
+
+  .lblb-horizontal-parallel-stories__story-title
+     .lblb-block-title h4 {
+      color: #212121;
+      text-shadow: unset;
   }
 
   .lblb-horizontal-parallel-stories__story-content {
@@ -321,11 +423,16 @@
 
   .lblb-horizontal-parallel-stories__story-text-slot,
   .lblb-horizontal-parallel-stories__story-image-slot {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
     margin-right: unset;
     max-height: unset;
     height: unset;
     width: unset;
+  }
+
+  .lblb-horizontal-parallel-stories__story-text-slot {
+    padding: 0 1rem;
   }
 
   .lblb-horizontal-parallel-stories__story-desktop-controls {
