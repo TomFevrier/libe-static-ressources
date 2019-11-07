@@ -1660,9 +1660,10 @@
   position: relative;
 }
 
-.lblb-photo .lblb-photo__photo {
-  max-width: 100%;
-  display: block;
+.lblb-photo
+  .lblb-photo__photo {
+    max-width: 100%;
+    display: block;
 }
 
 .lblb-photo__info-line {
