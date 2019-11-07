@@ -115,6 +115,8 @@
 
 .lblb-page-title {
   color: #212121;
+  font-family: 'Libe-Sans', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
 }
 
 .lblb-page-title h1,
@@ -125,11 +127,9 @@
 .lblb-page-title h6,
 .lblb-page-title span {
   display: block;
-  font-family: 'Libe-Sans', Helvetica, Arial, sans-serif;
   font-size: 5.375rem;
   line-height: 5.5rem;
   font-weight: 800;
-  text-transform: uppercase;
 }
 
 .lblb-page-title_big h1,
@@ -265,6 +265,7 @@
 
 .lblb-inter-title {
   color: #212121;
+  font-family: 'Libe-Sans', Helvetica, Arial, sans-serif;
 }
 
 .lblb-inter-title h1,
@@ -275,7 +276,6 @@
 .lblb-inter-title h6,
 .lblb-inter-title span {
   display: block;
-  font-family: 'Libe-Sans', Helvetica, Arial, sans-serif;
   font-size: 3.375rem;
   line-height: 3.5rem;
   font-weight: 800;
@@ -414,15 +414,15 @@
 
 .lblb-overhead {
   color: #212121;
+  font-family: 'Libe-Sans', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
 }
 
 .lblb-overhead span {
   display: block;
-  font-family: 'Libe-Sans', Helvetica, Arial, sans-serif;
   font-size: 2.25rem;
   line-height: 2.5rem;
   font-weight: 800;
-  text-transform: uppercase;
 }
 
 .lblb-overhead_big span {
@@ -492,11 +492,11 @@
 
 .lblb-hat {
   color: #212121;
+  font-family: 'Synthese', Helvetica, Arial, sans-serif;
 }
 
 .lblb-hat em {
   display: block;
-  font-family: 'Synthese', Helvetica, Arial, sans-serif;
   font-size: 2.25rem;
   line-height: 2.5rem;
   font-weight: 400;
@@ -570,6 +570,7 @@
 
 .lblb-section-title {
   color: #212121;
+  font-family: 'Libe-Sans', Helvetica, Arial, sans-serif;
 }
 
 .lblb-section-title h1,
@@ -580,7 +581,6 @@
 .lblb-section-title h6,
 .lblb-section-title span {
   display: block;
-  font-family: 'Libe-Sans', Helvetica, Arial, sans-serif;
   font-size: 2.25rem;
   line-height: 2.5rem;
   font-weight: 800;
@@ -719,6 +719,7 @@
 
 .lblb-block-title {
   color: #212121;
+  font-family: 'Libe-Sans', Helvetica, Arial, sans-serif;
 }
 
 .lblb-block-title h1,
@@ -729,7 +730,6 @@
 .lblb-block-title h6,
 .lblb-block-title span {
   display: block;
-  font-family: 'Libe-Sans', Helvetica, Arial, sans-serif;
   font-size: 1.375rem;
   line-height: 1.5rem;
   font-weight: 800;
@@ -868,6 +868,7 @@
 
 .lblb-paragraph-title {
   color: #212121;
+  font-family: 'Synthese', Helvetica, Arial, sans-serif;
 }
 
 .lblb-paragraph-title h1,
@@ -878,7 +879,6 @@
 .lblb-paragraph-title h6,
 .lblb-paragraph-title span {
   display: block;
-  font-family: 'Synthese', Helvetica, Arial, sans-serif;
   font-size: 1.375rem;
   line-height: 1.5rem;
   font-weight: 600;
@@ -917,13 +917,7 @@
   line-height: 1.5rem;
 }
 
-.lblb-paragraph-title_literary h1,
-.lblb-paragraph-title_literary h2,
-.lblb-paragraph-title_literary h3,
-.lblb-paragraph-title_literary h4,
-.lblb-paragraph-title_literary h5,
-.lblb-paragraph-title_literary h6,
-.lblb-paragraph-title_literary span {
+.lblb-paragraph-title_literary {
   font-family: 'Georgia', serif;
 }
 
@@ -1202,6 +1196,9 @@
 
 .lblb-annotation-title {
   color: #212121;
+  font-family: 'Libe-Sans-Semicondensed', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .08em;
 }
 
 .lblb-annotation-title h1,
@@ -1212,12 +1209,9 @@
 .lblb-annotation-title h6,
 .lblb-annotation-title span {
   display: block;
-  font-family: 'Libe-Sans-Semicondensed', Helvetica, Arial, sans-serif;
   font-size: 1rem;
   line-height: 1rem;
   font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: .08em;
 }
 
 .lblb-annotation-title_big h1,
