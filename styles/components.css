@@ -1,4 +1,4 @@
-/*
+
  * ░░ █████████████░░░░░░░ █████████░░░░░░░ ███████████░░░ ████░░░░░░░░░░░░ ████░░░ ███████████░
  * ░█ ███         ███░░░ ███       ███░░░░█     ███   ░░░█ ██████░░░░░░░░ ██████░░█     ███   ░░
  *  ░█ ███░░░░░░░█ ███░░█ ███░░░░░█ ███░░░░░░░░█ ███░░░░░░█ ███  ███░░░░ ███  ███░░░░░░█ ███░░░░░
@@ -1101,6 +1101,296 @@
   .lblb-paragraph_small {
     font-size: 0.875rem;
     line-height: 1.5rem;
+  }
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ *
+ * QUOTE
+ *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.lblb-quote {
+  position: relative;
+  display: inline-block;
+  font-family: 'Synthese', Helvetica, Arial, sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  font-style: italic;
+  color: #777777;
+}
+
+.lblb-quote_big {
+  font-size: 1.375rem;
+  line-height: 2rem;
+}
+
+.lblb-quote_huge {
+  font-size: 1.75rem;
+  line-height: 2rem;
+}
+
+.lblb-quote_small {
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+}
+
+.lblb-quote_literary {
+  font-family: 'Georgia', serif;
+}
+
+.lblb-quote a,
+.lblb-quote__link {
+  color: unset;
+  cursor: pointer;
+  text-decoration: none;
+  border-bottom: 1px solid #e91845;
+}
+
+.lblb-quote a:hover,
+.lblb-quote__link:hover {
+  border-bottom-width: 2px;
+}
+
+/* with-author modifier */
+.lblb-quote__author {
+  display: none;
+  margin-top: 1rem;
+  font-style: normal;
+}
+
+.lblb-quote_with-author
+  .lblb-quote__author {
+    display: block;
+}
+
+.lblb-quote_big
+  .lblb-quote__author {
+    margin-top: 1.5rem;
+}
+
+.lblb-quote_huge
+  .lblb-quote__author {
+    margin-top: 1.5rem;
+}
+
+.lblb-quote_small
+  .lblb-quote__author {
+    margin-top: .5rem;
+}
+
+/* with-side-bar modifier */
+.lblb-quote.lblb-quote_with-side-bar {
+  padding-left: 1rem;
+  border-left: .125rem solid #CCCCCC;
+}
+
+.lblb-quote.lblb-quote_small.lblb-quote_with-side-bar {
+  padding-left: .5rem;
+}
+
+.lblb-quote.lblb-quote_big.lblb-quote_with-side-bar {
+  padding-left: 1.5rem;
+}
+
+.lblb-quote.lblb-quote_huge.lblb-quote_with-side-bar {
+  padding-left: 1.5rem;
+}
+
+/* with-decoration modifier */
+.lblb-quote__decoration {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.lblb-quote.lblb-quote_with-decoration
+  .lblb-quote__decoration {
+    display: block;
+}
+
+.lblb-quote.lblb-quote_with-decoration
+  .lblb-quote__content {
+    position: relative;
+}
+
+.lblb-quote.lblb-quote_with-decoration
+  .lblb-quote__author {
+    position: relative;
+    z-index: 2;
+}
+
+.lblb-quote.lblb-quote_with-decoration
+  .lblb-quote__content-text {
+    position: relative;
+    z-index: 2;
+}
+
+.lblb-quote__decoration
+  .lblb-svg {
+    position: absolute;
+    z-index: 1;
+}
+
+.lblb-quote__decoration
+  .lblb-svg svg {
+    height: 4rem;
+    width: auto;
+}
+
+.lblb-quote__decoration
+  .lblb-quote__opening-quotation-mark
+    .lblb-svg {
+      top: -.5rem;
+      left: -1rem;
+}
+
+.lblb-quote__decoration
+  .lblb-quote__closing-quotation-mark
+    .lblb-svg {
+      right: -1rem;
+      bottom: -.5rem;
+      /* Will be supported someday in the future.
+       * Values below depend on the height of the svg,
+       * don't forget to change them for smaller screen
+       * sizes, when the css max() function is supported
+       * 
+       * top: calc(max(-.5rem, 100% - 4.5rem)); */
+}
+
+.lblb-quote__decoration
+  .lblb-svg svg #fill-1 {
+    fill: #CCCCCC;
+    opacity: .5;
+}
+
+@media screen and (max-width: 63rem) {
+  .lblb-quote {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+  }
+
+  .lblb-quote_big {
+    font-size: 1.375rem;
+    line-height: 1.5rem;
+  }
+
+  .lblb-quote_huge {
+    font-size: 1.625rem;
+    line-height: 2rem;
+  }
+
+  .lblb-quote_small {
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+  }
+
+  /* with-author modifier */
+  .lblb-quote__author {
+    margin-top: 1rem;
+  }
+
+  .lblb-quote_big
+    .lblb-quote__author {
+      margin-top: 1rem;
+  }
+
+  .lblb-quote_huge
+    .lblb-quote__author {
+      margin-top: 1.5rem;
+  }
+
+  .lblb-quote_small
+    .lblb-quote__author {
+      margin-top: .5rem;
+  }
+
+  /* with-side-bar modifier */
+  .lblb-quote.lblb-quote_with-side-bar {
+    padding-left: 1rem;
+  }
+
+  .lblb-quote.lblb-quote_small.lblb-quote_with-side-bar {
+    padding-left: .5rem;
+  }
+
+  .lblb-quote.lblb-quote_big.lblb-quote_with-side-bar {
+    padding-left: 1rem;
+  }
+
+  .lblb-quote.lblb-quote_huge.lblb-quote_with-side-bar {
+    padding-left: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 40rem) {
+  .lblb-quote {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .lblb-quote_big {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+  }
+
+  .lblb-quote_huge {
+    font-size: 1.625rem;
+    line-height: 2rem;
+  }
+
+  .lblb-quote_small {
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+  }
+
+  /* with-author modifier */
+  .lblb-quote__author {
+    margin-top: 1rem;
+  }
+
+  .lblb-quote_big
+    .lblb-quote__author {
+      margin-top: 1rem;
+  }
+
+  .lblb-quote_huge
+    .lblb-quote__author {
+      margin-top: 1.5rem;
+  }
+
+  .lblb-quote_small
+    .lblb-quote__author {
+      margin-top: .5rem;
+  }
+
+  /* with-side-bar modifier */
+  .lblb-quote.lblb-quote_with-side-bar {
+    padding-left: 1rem;
+  }
+
+  .lblb-quote.lblb-quote_small.lblb-quote_with-side-bar {
+    padding-left: .5rem;
+  }
+
+  .lblb-quote.lblb-quote_big.lblb-quote_with-side-bar {
+    padding-left: 1rem;
+  }
+
+  .lblb-quote.lblb-quote_huge.lblb-quote_with-side-bar {
+    padding-left: 1.5rem;
+  }
+
+  /* with-decoration modifier */
+  .lblb-quote__decoration
+    .lblb-svg svg {
+      height: 3rem;
+      width: auto;
   }
 }
 
@@ -2227,4 +2517,4 @@ line-height: 4rem;
 .lblb-page-title_huge
 line-height: 5rem;
 .lblb-page-title_small
-line-height: 3rem;*/
+line-height: 3rem;
