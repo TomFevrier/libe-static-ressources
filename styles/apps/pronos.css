@@ -9,21 +9,35 @@ body {
 
 .pronos__head {
   margin-top: 4rem;
+  padding: 0 1rem;
+}
+
+.pronos__head > * {
+  margin-bottom: 2rem;
 }
 
 .pronos__head .lblb-inter-title {
   text-align: center;
   max-width: 35rem;
-  margin: 0 auto;
-  margin-bottom: 4rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .pronos__head .lblb-paragraph {
   display: block;
   text-align: center;
   max-width: 45rem;
-  margin: 0 auto;
-  margin-bottom: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pronos__head .lblb-annotation {
+  text-align: center;
+  max-width: 35rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  color: #777;
 }
 
 .pronos__share {
@@ -111,6 +125,7 @@ body {
   bottom: 100%;
   display: none;
   justify-content: center;
+  width: fit-content;
 }
 
 .pronos-groups__team:hover .pronos-groups__team-label {
@@ -167,6 +182,7 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
   margin-bottom: 3rem;
+  padding: 0 1rem;
 }
 
 .pronos-luckies__reset {
@@ -304,13 +320,23 @@ body {
   flex-grow: 1;
   margin: .25rem;
   padding: .25rem;
-  display: flex;
+}
+
+.pronos-final__match-provenance {
+  display: block;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.pronos-final__match-provenance .lblb-annotation-title {
+  text-align: center;
+  color: #777;
 }
 
 .pronos-final__team {
   height: 3rem;
   width: 50%;
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   padding: .25rem;
@@ -318,6 +344,20 @@ body {
   position: relative;
   margin-bottom: 2.5rem;
   transition: transform 200ms;
+}
+
+.pronos-final__team-medium-name {
+  display: none;
+}
+
+#pronos-final__round-1 .pronos-final__team-short-name,
+#pronos-final__round-2 .pronos-final__team-short-name {
+  display: none;
+}
+
+#pronos-final__round-1 .pronos-final__team-medium-name,
+#pronos-final__round-2 .pronos-final__team-medium-name {
+  display: block;
 }
 
 .pronos-final__team.pronos-final__team_loser {
@@ -367,6 +407,22 @@ body {
 
 #pronos-final__round-1 .pronos-final__match {
   width: calc(100% - .5rem);
+}
+
+@media screen and (max-width: 63rem) {
+  #pronos-final__round-1 .pronos-final__team-short-name,
+  #pronos-final__round-2 .pronos-final__team-short-name {
+    display: block;
+  }
+
+  #pronos-final__round-1 .pronos-final__team-medium-name,
+  #pronos-final__round-2 .pronos-final__team-medium-name {
+    display: none;
+  }
+
+  .pronos-final__match-provenance {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 40rem) {
@@ -419,5 +475,3 @@ body {
   margin: 0 1rem;
   flex-shrink: 1;
 }
-
-
