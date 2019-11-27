@@ -126,7 +126,7 @@ body {
   display: none;
   justify-content: center;
   width: fit-content;
-  width: moz-fit-content;
+  width: -moz-fit-content;
 }
 
 .pronos-groups__team:hover .pronos-groups__team-label {
@@ -246,7 +246,7 @@ body {
   display: none;
   justify-content: center;
   width: fit-content;
-  width: moz-fit-content;
+  width: -moz-fit-content;
 }
 
 .pronos-luckies__team:hover .pronos-luckies__team-label {
