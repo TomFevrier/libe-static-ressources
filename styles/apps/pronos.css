@@ -478,3 +478,7 @@ body {
   margin: 0 1rem;
   flex-shrink: 1;
 }
+
+.pronos-winner__team .lblb-page-title .heading {
+  text-align: center;
+}
