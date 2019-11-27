@@ -1,0 +1,54 @@
+.speech {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.speech .lblb-paragraph {
+  padding: 0.5rem 0;
+}
+
+.sentence {
+  position: relative;
+  cursor: pointer;
+}
+
+.sentence:hover {
+  background-color: yellow;
+}
+
+.sentence:hover .sentence__tooltip {
+  opacity: 1;
+}
+
+.sentence__tooltip {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(-100%);
+  min-width: 10rem;
+  padding: 0.2rem;
+  background-color: #dedede;
+  text-align: center;
+  opacity: 0;
+}
+
+.generateButton {
+  cursor: pointer;
+  background: #e91845;
+  padding: 0.5rem;
+  margin: 0!important;
+  border: none;
+}
+
+.generateButton:focus {
+  outline: none;
+}
+
+.generateButton:hover {
+  background: #ee4469;
+}
+
+.generateButton .lblb-paragraph {
+  margin: 0;
+}
