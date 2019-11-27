@@ -202,9 +202,8 @@ body {
 }
 
 .pronos-luckies__groups {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
@@ -285,6 +284,9 @@ body {
 @media screen and (max-width: 63rem) {
   .pronos-luckies__team img {
     width: 4rem;
+  }
+  .pronos-luckies__groups {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
