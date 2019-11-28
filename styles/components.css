@@ -2550,3 +2550,23 @@ line-height: 4rem;
 line-height: 5rem;
 .lblb-page-title_small
 line-height: 3rem;
+*/
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ *
+ * SCATTER PLOT
+ *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.lblb-chart_scatter-plot {
+  display: flex;
+  flex-direction: column;
+}
+
+.lblb-chart_scatter-plot .axis text {
+  font-size: 0.8rem;
+}
+
+.lblb-chart_scatter-plot .grid line {
+  stroke: #AAA;
+}
