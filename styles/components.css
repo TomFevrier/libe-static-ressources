@@ -2554,19 +2554,25 @@ line-height: 3rem;
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  *
- * SCATTER PLOT
+ * CHARTS
  *
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
-.lblb-chart_scatter-plot {
+.lblb-chart {
   display: flex;
   flex-direction: column;
 }
 
-.lblb-chart_scatter-plot .axis text {
+.lblb-chart .axis text {
   font-size: 0.8rem;
 }
 
-.lblb-chart_scatter-plot .grid line {
+.lblb-chart .grid line {
   stroke: #AAA;
+}
+
+.lblb-chart_bar-chart-race .bar text {
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  fill: white;
 }
